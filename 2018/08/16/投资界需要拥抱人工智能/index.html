@@ -236,7 +236,7 @@
           
   <li class="menu-item menu-item-home">
     <a href="/" rel="section">
-      首页</a>
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
 </li>
 
       
@@ -245,7 +245,7 @@
           
   <li class="menu-item menu-item-categories">
     <a href="/categories/" rel="section">
-      分类</a>
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
 </li>
 
       
@@ -254,7 +254,7 @@
           
   <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
-      归档</a>
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
 </li>
 
       
@@ -263,7 +263,7 @@
           
   <li class="menu-item menu-item-tags">
     <a href="/tags/" rel="section">
-      标签</a>
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
 </li>
 
       
@@ -271,8 +271,8 @@
         
           
   <li class="menu-item menu-item-message">
-    <a href="/message" rel="section">
-      留言</a>
+    <a href="/message/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-comments"></i> <br />留言</a>
 </li>
 
       
@@ -404,16 +404,6 @@
           
 
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/08/16/投资界需要拥抱人工智能/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2018/08/16/投资界需要拥抱人工智能/" itemprop="commentsCount"></span>
-                </a>
-              </span>
             
           
 
@@ -557,10 +547,7 @@
 
   
     <div class="comments" id="comments">
-      
-        <div onclick="showGitment()" id="gitment-display-button">显示 Gitment 评论</div>
-        <div id="gitment-container" style="display:none"></div>
-      
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zODk4NC8xNTUxMQ=="></div>
     </div>
 
   
@@ -765,6 +752,34 @@
 
 
 
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div style="margin:-20px;position: absolute;right:265px;">
+<dl style="float:left">
+  <dt style="float:left">
+    <dd style="float:left;width:300px">
+      <span style="float:right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</span>
+      <span style="float:right">本站总访问量<span><span style="float:right" id="busuanzi_value_site_pv"></span>
+    </dd>
+  </dt>
+  <dt style="float:left;width:300px">
+    <dd>
+      <span style="float:left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <span style="float:left">您是第</span>
+      <span style="float:left" id="busuanzi_value_site_uv"></span>
+      <span style="float:left">个小伙伴</span>
+    </dd>
+  </dt>
+</dl>
+</div>
+
         
 
 
@@ -880,51 +895,21 @@
 
 
   
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
 
 
 
 
-
-
-<!-- LOCAL: You can save these files to your site and update links -->
-    
-        
-        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
-        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
-    
-<!-- END LOCAL -->
-
-    
-
-    
-      <script type="text/javascript">
-      function renderGitment(){
-        var gitment = new Gitmint({
-            id: window.location.pathname,
-            owner: 'dp516',
-            repo: 'dp516.github.io',
-            
-            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-            
-            oauth: {
-            
-            
-                client_secret: '5aff76b87f3470b4c168ac66d83f519ef38da2ec',
-            
-                client_id: 'c38ee54d9ade30f519b8'
-            }});
-        gitment.render('gitment-container');
-      }
-
-      
-      function showGitment(){
-        document.getElementById("gitment-display-button").style.display = "none";
-        document.getElementById("gitment-container").style.display = "block";
-        renderGitment();
-      }
-      
-      </script>
-    
 
 
 
