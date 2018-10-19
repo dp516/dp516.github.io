@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hexo Next 解决 Busuanzi 统计浏览失效的办法]]></title>
-    <url>%2F2018%2F10%2F19%2FHexo%20Next%20%E8%A7%A3%E5%86%B3%20Busuanzi%20%E7%BB%9F%E8%AE%A1%E6%B5%8F%E8%A7%88%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
-    <content type="text"><![CDATA[问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子官网发现有重要提示，原来js的网址发生了变更。但按照官网更改后仍然不显示，经验证，还需要修改一处。 解决方案Step1：打开博客目录\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件，将src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”修改为src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js” Step2：打开博客目录\themes\next\layout_partials\下的footer.swig文件，将]]></content>
+    <title><![CDATA[Hexo Next 的 Busuanzi 统计浏览失效的解决办法]]></title>
+    <url>%2F2018%2F10%2F19%2FHexo%20Next%20%E7%9A%84%20Busuanzi%20%E7%BB%9F%E8%AE%A1%E6%B5%8F%E8%A7%88%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子官网发现有重要提示，原来js的网址发生了变更。按照官网提供方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件，将src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”修改为src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js” Step2：打开\themes\next\layout_partials\下的footer.swig文件，将src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”修改为src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”]]></content>
       <categories>
         <category>IT应用</category>
       </categories>
