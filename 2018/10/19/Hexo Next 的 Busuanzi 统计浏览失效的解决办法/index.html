@@ -116,18 +116,18 @@
 
 
 
-  <meta name="description" content="问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子官网发现有重要提示，原来js的网址发生了变更。按照官网提供方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件，将src=“">
+  <meta name="description" content="问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子网站发现有重要提示，原来js的网址发生了变更。按照网站给出的方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案 Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件 123&amp;">
 <meta name="keywords" content="不蒜子,Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo Next 的 Busuanzi 统计浏览失效的解决办法">
 <meta property="og:url" content="http://www.dp516.com/2018/10/19/Hexo Next 的 Busuanzi 统计浏览失效的解决办法/index.html">
 <meta property="og:site_name" content="云上蓝鹰">
-<meta property="og:description" content="问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子官网发现有重要提示，原来js的网址发生了变更。按照官网提供方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件，将src=“">
+<meta property="og:description" content="问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子网站发现有重要提示，原来js的网址发生了变更。按照网站给出的方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案 Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件 123&amp;">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-19T15:17:30.069Z">
+<meta property="og:updated_time" content="2018-10-19T15:36:51.675Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo Next 的 Busuanzi 统计浏览失效的解决办法">
-<meta name="twitter:description" content="问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子官网发现有重要提示，原来js的网址发生了变更。按照官网提供方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件，将src=“">
+<meta name="twitter:description" content="问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子网站发现有重要提示，原来js的网址发生了变更。按照网站给出的方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案 Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件 123&amp;">
 
 
 
@@ -457,9 +457,15 @@
       
 
       
-        <h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子官网发现有重要提示，原来js的网址发生了变更。按照<a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener">官网</a>提供方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。</p>
-<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><p>Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件，将src=“<a href="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener">https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</a><br>修改为src=“<a href="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener">https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</a></p>
-<p>Step2：打开\themes\next\layout_partials\下的footer.swig文件，将src=“<a href="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener">https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</a><br>修改为src=“<a href="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”" target="_blank" rel="noopener">https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</a></p>
+        <h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去<a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener">不蒜子网站</a>发现有重要提示，原来js的网址发生了变更。按照网站给出的方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。</p>
+<h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><blockquote>
+<p>Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;将 src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</span><br><span class="line">&gt;修改为 src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>Step2：打开\themes\next\layout_partials\下的footer.swig文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;将 src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</span><br><span class="line">&gt;修改为 src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
 
       
     </div>
