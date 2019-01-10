@@ -1,230 +1,443 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[他山之石，可以攻玉：应用EPU指数跟踪中国资本市场]]></title>
-    <url>%2F2019%2F01%2F10%2F%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%94%BB%E7%8E%89%EF%BC%9A%E5%BA%94%E7%94%A8EPU%E6%8C%87%E6%95%B0%E8%B7%9F%E8%B8%AA%E4%B8%AD%E5%9B%BD%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA%2F</url>
-    <content type="text"><![CDATA[一、EPU指数简介经济政策不确定性指数（EPU）是斯坦福大学和芝加哥大学的Scott R．Baker、Nicholas Bloom和Steven J．Davis三位学者编制，主要用来反映经济体经济和政策的不确定性。目前已经编制了全球以及24个国家和地区的EPU指数。该指数频率为月度。他们的研究表明，EPU指数与实际宏观经济变量（如经济增长和就业率）有显著的反向关系，同时对权益市场的大幅波动也有解释作用。 美国EPU指数与美国权益市场的相关性已经得到很多专业人士的认可。美国EPU综合指数的三个组成部分：新闻指数（News Index）、税法法条失效指数（Tax Expiration Index）和经济预测差值指数（Economic Forecaster Disagreement Index）。通过下图可见，美国EPU综合指数与标普500的确具有较为显著的负相关性。 二、EPU指数在中国资本市场的应用探索中国自改革开放40年，宏观经济很大程度上受到政策调控驱动，货币、财税、贸易、金融、产业等各方面政策的预期与施行，给资本市场带来较大的不确定性。EPU指数通过新闻数据挖掘来试图刻画政策不确定性的趋势，本文试图通过数据对比揭示它与中国汇率、利率、权益、商品市场的关系。 目前中国的EPU指数仅指综合指数的第一部分，即新闻指数，所以称作News-Based EPU。具体来说，选取中国的大型报社，通过搜索关键词‘不确定’、‘经济’、‘政策’、‘消费’、‘调控’、‘央行’、‘预算’和‘赤字’等筛选出与经济政策不确定相关的文章，再进行统计和标准化处理后得到指数。虽然仅是新闻指数，但Scott R．Baker等人指出，News-Based EPU仍然具有代表性，因为其与综合指数具有很强的相关性。 （一）外汇市场这里主要研究美元兑人民币汇率。2015年811汇改以来，中国汇率市场化程度大幅提高，我们整理了2015年7月至今的美元对人民币即期汇率月均数据，由于美元兑人民币汇率反映了中美之间的货币强弱关系，我们构造一个中美EPU差额（中国EPU指数减去美国EPU（新闻指数部分）），来反映中国相对美国政策的不确定性程度的强弱。对比发现两者相关性很高，相关系数高达0.82。如果EPU差走高，也就是说如果中国政策不确定性相对美国更高，那么人民币倾向于贬值。 （二）固收市场 为了便于直观对比，将中国EPU指数做了平滑处理（取三个月移动平均）和坐标轴逆序处理，我们对比了2002年至今的10年期国债收益率，发现两者具有较强的正相关性。中国EPU指数越高，宏观经济转弱的可能性越高，债市会因收益率没有宏观经济支撑和政策宽松预期而向好。从当前的EPU指数来看，高位的EPU对应着较低水平的利率，有利于债市走牛。 （三）权益市场 1995年开始的上证综指和中国EPU指数对比来看，如果EPU打破前期区间走高，对应着上图中的黑色方框标示部分，意味着政策不确定性加大，不难发现，这个时候中国股市往往出现较大幅度的下滑。总体来看，中国EPU指数和股市负相关。当前中国EPU市场仍处于新高位置，因此股市短期仍难言乐观，需要继续观察。#### （四）商品市场 国内商品市场走势采用南华商品综合指数来代表，将其与平滑逆序处理过的中国EPU指数对比来看，两者的相关性并不显著，商品价格的运行或更多依赖商品自身及产业链供求关系的变动。]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>他山之石，可以攻玉：应用EPU指数跟踪中国资本市场</title>
+      <link href="/2019/01/10/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%94%BB%E7%8E%89%EF%BC%9A%E5%BA%94%E7%94%A8EPU%E6%8C%87%E6%95%B0%E8%B7%9F%E8%B8%AA%E4%B8%AD%E5%9B%BD%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA/"/>
+      <url>/2019/01/10/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3%EF%BC%8C%E5%8F%AF%E4%BB%A5%E6%94%BB%E7%8E%89%EF%BC%9A%E5%BA%94%E7%94%A8EPU%E6%8C%87%E6%95%B0%E8%B7%9F%E8%B8%AA%E4%B8%AD%E5%9B%BD%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA/</url>
+      <content type="html"><![CDATA[<h3 id="一、EPU指数简介"><a href="#一、EPU指数简介" class="headerlink" title="一、EPU指数简介"></a>一、EPU指数简介</h3><p>经济政策不确定性指数（EPU）是斯坦福大学和芝加哥大学的Scott R．Baker、Nicholas Bloom和Steven J．Davis三位学者编制，主要用来反映经济体经济和政策的不确定性。目前已经编制了全球以及24个国家和地区的EPU指数。该指数频率为月度。他们的研究表明，EPU指数与实际宏观经济变量（如经济增长和就业率）有显著的反向关系，同时对权益市场的大幅波动也有解释作用。</p><p>美国EPU指数与美国权益市场的相关性已经得到很多专业人士的认可。美国EPU综合指数的三个组成部分：新闻指数（News Index）、税法法条失效指数（Tax Expiration Index）和经济预测差值指数（Economic Forecaster Disagreement Index）。通过下图可见，美国EPU综合指数与标普500的确具有较为显著的负相关性。</p><div style="text-align:center"><br>    <img src="/img/20190110_0.png" alt=""><br></div><h3 id="二、EPU指数在中国资本市场的应用探索"><a href="#二、EPU指数在中国资本市场的应用探索" class="headerlink" title="二、EPU指数在中国资本市场的应用探索"></a>二、EPU指数在中国资本市场的应用探索</h3><p>中国自改革开放40年，宏观经济很大程度上受到政策调控驱动，货币、财税、贸易、金融、产业等各方面政策的预期与施行，给资本市场带来较大的不确定性。EPU指数通过新闻数据挖掘来试图刻画政策不确定性的趋势，本文试图通过数据对比揭示它与中国汇率、利率、权益、商品市场的关系。</p><p>目前中国的EPU指数仅指综合指数的第一部分，即新闻指数，所以称作News-Based EPU。具体来说，选取中国的大型报社，通过搜索关键词‘不确定’、‘经济’、‘政策’、‘消费’、‘调控’、‘央行’、‘预算’和‘赤字’等筛选出与经济政策不确定相关的文章，再进行统计和标准化处理后得到指数。虽然仅是新闻指数，但Scott R．Baker等人指出，News-Based EPU仍然具有代表性，因为其与综合指数具有很强的相关性。</p><h4 id="（一）外汇市场"><a href="#（一）外汇市场" class="headerlink" title="（一）外汇市场"></a>（一）外汇市场</h4><p>这里主要研究美元兑人民币汇率。2015年811汇改以来，中国汇率市场化程度大幅提高，我们整理了2015年7月至今的美元对人民币即期汇率月均数据，由于美元兑人民币汇率反映了中美之间的货币强弱关系，我们构造一个中美EPU差额（中国EPU指数减去美国EPU（新闻指数部分）），来反映中国相对美国政策的不确定性程度的强弱。对比发现两者相关性很高，相关系数高达0.82。如果EPU差走高，也就是说如果中国政策不确定性相对美国更高，那么人民币倾向于贬值。</p><div style="text-align:center"><br>    <img src="/img/20190110_1.png" alt=""><br></div><h4 id="（二）固收市场"><a href="#（二）固收市场" class="headerlink" title="（二）固收市场"></a>（二）固收市场</h4><div style="text-align:center"><br>    <img src="/img/20190110_2.png" alt=""><br></div><p>为了便于直观对比，将中国EPU指数做了平滑处理（取三个月移动平均）和坐标轴逆序处理，我们对比了2002年至今的10年期国债收益率，发现两者具有较强的正相关性。中国EPU指数越高，宏观经济转弱的可能性越高，债市会因收益率没有宏观经济支撑和政策宽松预期而向好。从当前的EPU指数来看，高位的EPU对应着较低水平的利率，有利于债市走牛。</p><h4 id="（三）权益市场"><a href="#（三）权益市场" class="headerlink" title="（三）权益市场"></a>（三）权益市场</h4><div style="text-align:center"><br>    <img src="/img/20190110_3.png" alt=""><br></div><br>1995年开始的上证综指和中国EPU指数对比来看，如果EPU打破前期区间走高，对应着上图中的黑色方框标示部分，意味着政策不确定性加大，不难发现，这个时候中国股市往往出现较大幅度的下滑。总体来看，中国EPU指数和股市负相关。当前中国EPU市场仍处于新高位置，因此股市短期仍难言乐观，需要继续观察。<br><br><br><br>#### （四）商品市场<br><br><div style="text-align:center"><br>    <img src="/img/20190110_4.png" alt=""><br></div><p>国内商品市场走势采用南华商品综合指数来代表，将其与平滑逆序处理过的中国EPU指数对比来看，两者的相关性并不显著，商品价格的运行或更多依赖商品自身及产业链供求关系的变动。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>股票</tag>
-        <tag>汇率</tag>
-        <tag>利率</tag>
-        <tag>EPU</tag>
-        <tag>商品</tag>
-        <tag>相关性</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[2019汇市债市展望]]></title>
-    <url>%2F2019%2F01%2F08%2F2019%E6%B1%87%E5%B8%82%E5%80%BA%E5%B8%82%E5%B1%95%E6%9C%9B%2F</url>
-    <content type="text"><![CDATA[汇率中美利差变化（领先指标） 2018年以来中美货币政策背道而驰，很多投资者都密切关注中美利差变化。按照传统经典的利率平价理论，利差可以决定汇率的变化。如果中美利差过小，那么人民币对美元面临贬值压力，进而会引发资本外流，导致中国外汇储备消耗。 实证来看，中美利差与美元兑人民币汇率总体呈现一定的负相关（为便于观察，上图汇率坐标采用逆序），从历史数据看，中美利差领先汇率三个月的负相关性最强，除了2016年2月-9月的负相关性并不显著外，总体表现尚可。这意味着如果中美利差收窄，人民币相对美元会有贬值压力，这也是近期人民币汇率调整的原因之一。 我们再来从另一个维度来看，美元指数与人民币汇率的走势对比，发现两者之间存在几乎同步的较强正相关性。 美元指数变化（同步指标） 我们发现，无论是中美利差变化，还是美元指数，都跟美联储的货币政策相关性很大，因为其对美国名义利率的影响是直接的，从而间接提高了美国实际市场利率。 从芝商所FedWatch展示的2019年联储加息概率表（截止上周五）来看，3月加息概率0%，6月加息5.6%，12月甚至有可能降息，降息概率达到33%。中国当前的货币政策主要靠公开市场操作和定向宽松为主，主要是为了避免资金脱实向虚，预计2019年中美利差继续大幅收窄的概率较低，明年美国如果要花钱搞基建，兑现特朗普的施政承诺，融资成本就必须控制，从这个角度看，美元指数走高的空间也有限。2019年人民币有望筑底企稳。 利率10年期国债收益率与3个月期国债收益率 中国宽松的货币政策趋向压低了长期和短期市场利率，10年期国债收益率和3个月期国债收益率自2018年以来总体上呈下行态势。 DR001以及DR007 通过MLF等公开市场操作和降准，资金面近期宽松程度加大。银行间存款类机构隔夜质押式加权利率（DR001）以及DR007，这是一个观测资金价格走向的重要风向标。中国央行很看重DR007这个利率指标。因为DR007交易量非常大，可以对整个的市场利率产生影响。以DR007为例，2019年初以来其利率在2.3%-2.4%之间，已与7天期逆回购政策利率（2.55%）持续倒挂。换言之，如果大行从央行拿到逆回购资金再贷出去，是亏损的，但借出去好歹有点收益。简单地说，现在的银行间市场，银行纷纷忙着出钱，资金面流动性宽裕。 总体来看，2018年开启以来的债牛有望在2019年延续。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 汇率 </tag>
+            
+            <tag> 利率 </tag>
+            
+            <tag> 股票 </tag>
+            
+            <tag> EPU </tag>
+            
+            <tag> 商品 </tag>
+            
+            <tag> 相关性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>2019汇市债市展望</title>
+      <link href="/2019/01/08/2019%E6%B1%87%E5%B8%82%E5%80%BA%E5%B8%82%E5%B1%95%E6%9C%9B/"/>
+      <url>/2019/01/08/2019%E6%B1%87%E5%B8%82%E5%80%BA%E5%B8%82%E5%B1%95%E6%9C%9B/</url>
+      <content type="html"><![CDATA[<h3 id="汇率"><a href="#汇率" class="headerlink" title="汇率"></a>汇率</h3><h4 id="中美利差变化（领先指标）"><a href="#中美利差变化（领先指标）" class="headerlink" title="中美利差变化（领先指标）"></a>中美利差变化（领先指标）</h4><div style="text-align:center"><br>    <img src="/img/20190108_1.png" alt=""><br></div><p>2018年以来中美货币政策背道而驰，很多投资者都密切关注中美利差变化。按照传统经典的利率平价理论，利差可以决定汇率的变化。如果中美利差过小，那么人民币对美元面临贬值压力，进而会引发资本外流，导致中国外汇储备消耗。</p><p>实证来看，中美利差与美元兑人民币汇率总体呈现一定的负相关（为便于观察，上图汇率坐标采用逆序），从历史数据看，中美利差领先汇率三个月的负相关性最强，除了2016年2月-9月的负相关性并不显著外，总体表现尚可。这意味着如果中美利差收窄，人民币相对美元会有贬值压力，这也是近期人民币汇率调整的原因之一。</p><p>我们再来从另一个维度来看，美元指数与人民币汇率的走势对比，发现两者之间存在几乎同步的较强正相关性。</p><h4 id="美元指数变化（同步指标）"><a href="#美元指数变化（同步指标）" class="headerlink" title="美元指数变化（同步指标）"></a>美元指数变化（同步指标）</h4><div style="text-align:center"><br>    <img src="/img/20190108_2.png" alt=""><br></div><p>我们发现，无论是中美利差变化，还是美元指数，都跟美联储的货币政策相关性很大，因为其对美国名义利率的影响是直接的，从而间接提高了美国实际市场利率。</p><div style="text-align:center"><br>    <img src="/img/20190108_3.png" alt=""><br></div><p>从芝商所FedWatch展示的2019年联储加息概率表（截止上周五）来看，3月加息概率0%，6月加息5.6%，12月甚至有可能<strong>降息，</strong>降息概率达到33%。中国当前的货币政策主要靠公开市场操作和定向宽松为主，主要是为了避免资金脱实向虚，预计2019年中美利差继续大幅收窄的概率较低，明年美国如果要花钱搞基建，兑现特朗普的施政承诺，融资成本就必须控制，从这个角度看，美元指数走高的空间也有限。2019年人民币有望筑底企稳。</p><h3 id="利率"><a href="#利率" class="headerlink" title="利率"></a>利率</h3><h4 id="10年期国债收益率与3个月期国债收益率"><a href="#10年期国债收益率与3个月期国债收益率" class="headerlink" title="10年期国债收益率与3个月期国债收益率"></a>10年期国债收益率与3个月期国债收益率</h4><div style="text-align:center"><br>    <img src="/img/20190108_4.png" alt=""><br></div><p>中国宽松的货币政策趋向压低了长期和短期市场利率，10年期国债收益率和3个月期国债收益率自2018年以来总体上呈下行态势。</p><h4 id="DR001以及DR007"><a href="#DR001以及DR007" class="headerlink" title="DR001以及DR007"></a>DR001以及DR007</h4><div style="text-align:center"><br>    <img src="/img/20190108_5.png" alt=""><br></div><p>通过MLF等公开市场操作和降准，资金面近期宽松程度加大。银行间存款类机构隔夜质押式加权利率（DR001）以及DR007，这是一个观测资金价格走向的重要风向标。中国央行很看重DR007这个利率指标。因为DR007交易量非常大，可以对整个的市场利率产生影响。以DR007为例，2019年初以来其利率在2.3%-2.4%之间，已与7天期逆回购政策利率（2.55%）持续倒挂。换言之，如果大行从央行拿到逆回购资金再贷出去，是亏损的，但借出去好歹有点收益。简单地说，现在的银行间市场，银行纷纷忙着出钱，资金面流动性宽裕。</p><div style="text-align:center"><br>    <img src="/img/20190108_6.png" alt=""><br></div><p>总体来看，2018年开启以来的债牛有望在2019年延续。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>汇率</tag>
-        <tag>利率</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[用Python分析A股市场的时间效应]]></title>
-    <url>%2F2019%2F01%2F03%2F%E7%94%A8Python%E5%88%86%E6%9E%90A%E8%82%A1%E5%B8%82%E5%9C%BA%E7%9A%84%E6%97%B6%E9%97%B4%E6%95%88%E5%BA%94%2F</url>
-    <content type="text"><![CDATA[刚过去的2018年，中国A股市场可谓不堪回首，在全球主要股票市场中收益率垫底。2019年刚过完元旦假期，中国有讲求开门大吉的传统，股市如果开门红，心理上认为是个好的开始，讨了个好兆头。但是2019年的第一个交易日，A股上证综指、深证成指、创业板指均跌逾1%，感觉有些心塞:smile:。如果股市开门红，当年就大概率会上涨吗？如果开门绿，当年大概率会下跌吗？不论基本面和消息面上的原因，我们用数据来回答。 123import tushare as tsimport pandas as pdpro = ts.pro_api('你的接口token') 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566# 获取月度数据函数def stock_by_month(indx='000001.SH',start_year=1991,end_year=2018,ftable=False, m_list = ['01','02','03','04','05','06','07','08','09','10','11','12']): # 设定参数 tabletitle = [] for i in m_list: tabletitle.append(str(int(i))+'月') # 初始化 df = pd.DataFrame(columns=tabletitle, index=range(start_year,end_year+1)) # 获取指数历史行情数据 df_hq = pro.index_daily(ts_code=indx, start_date=str(start_year)+'0101', end_date=str(end_year)+'1231') # df_hq = pd.read_csv("./data/stock_d_h.csv", encoding='utf8') # df_hq.to_csv("./data/stock_d_h.csv",encoding="utf8") # 遍历计算每年情况 for y in range(start_year,end_year+1): year = str(y) df_y_hq = df_hq[df_hq['trade_date'].str.contains(year)].reset_index(drop = True) keydate_list = [] for month in m_list: bool1 = df_y_hq['trade_date'].str.contains(year + month) df_temp = df_y_hq[bool1] if len(df_temp)&lt;2: continue df_temp = df_temp.sort_values('trade_date',ascending = False).reset_index(drop = True) rows = len(df_temp) - 1 keydate_list.append(df_temp.loc[rows,'trade_date']) keydate_list.append(df_temp.loc[0,'trade_date']) # 获取关键交易日行情数据 df_temp = df_y_hq[df_y_hq.trade_date.isin(keydate_list)] \ .reset_index(drop = True) df_temp = df_temp.sort_values('trade_date',ascending = True).reset_index(drop = True) if len(df_temp)&lt;len(m_list)*2: continue # 计算涨跌幅 for i in range(len(tabletitle)): df.loc[y,tabletitle[i]] = (df_temp.loc[i*2+1,'close'] - df_temp.loc[i*2,'close']) \ / df_temp.loc[i*2,'close'] df.loc[y,'首日'] = df_temp.loc[0,'pct_chg']/100 df.loc[y,'全年'] = (df_temp.loc[len(df_temp)-1,'close'] - df_temp.loc[0,'close']) \ / df_temp.loc[0,'close'] df = df.dropna() # 格式化 if ftable==True: for cls in df.columns: df[cls] = df[cls].apply(lambda x: '%.0f%%' % (x*100)) return df 开门红重要吗我们根据1991-2018年的28年数据统计发现，从上证综指、深成指,创业板指三大指数分别来看，首日上涨、全年上涨的概率并不高，最高是深成指的57%，首日下跌，全年下跌的概率最高也是深成指（62%），但上证综指和创业板的表现不显著。 123456789101112131415161718192021d_index = &#123;'上证综指':'000001.SH','深成指':'399001.SZ','沪深300':'000300.SH', '创业板指':'399006.SZ','中证500':'000905.SH'&#125;index_list = ['上证综指','深成指','创业板指']df_tj = pd.DataFrame(index=index_list)for indxname in index_list: df = stock_by_month(indx=d_index[indxname],ftable=False) # 股票指数名称 print('&#123;:-^24&#125;'.format(indxname)) # 首日上涨，全年上涨的概率 prob1 = len(df[(df.首日 &gt; 0) &amp; (df.全年 &gt; 0)]) / len(df[df.首日 &gt; 0]) print('首日上涨，全年上涨的概率：','&#123;:.0%&#125;'.format(prob1)) # 首日下跌，全年下跌的概率 prob2 = len(df[(df.首日 &lt; 0) &amp; (df.全年 &lt; 0)]) / len(df[df.首日 &lt; 0]) print('首日下跌，全年下跌的概率：','&#123;:.0%&#125;'.format(prob2)) ----------上证综指---------- 首日上涨，全年上涨的概率： 56% 首日下跌，全年下跌的概率： 50% ----------深成指----------- 首日上涨，全年上涨的概率： 57% 首日下跌，全年下跌的概率： 62% ----------创业板指---------- 首日上涨，全年上涨的概率： 25% 首日下跌，全年下跌的概率： 25% 月份效应真的存在吗我们再看看月历效应是否存在，我们依然选取三大指数作为分析基准。 12345678910111213141516171819d_index = &#123;'上证综指':'000001.SH','深成指':'399001.SZ','沪深300':'000300.SH', '创业板指':'399006.SZ','中证500':'000905.SH'&#125;index_list = ['上证综指','深成指','创业板指']df_tj = pd.DataFrame(index=index_list)for indxname in index_list: df = stock_by_month(indx=d_index[indxname],ftable=False) for cls in df.columns.values.tolist(): df_tj.loc[indxname,cls] = len(df[df[cls]&gt;0])/len(df[cls]) for cls in df_tj.columns: df_tj[cls] = df_tj[cls].apply(lambda x: '%.0f%%' % (x*100)) df_tj 1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月 首日 全年 上证综指 57% 79% 54% 46% 54% 46% 54% 50% 46% 46% 64% 39% 64% 54% 深成指 48% 67% 59% 52% 48% 44% 48% 48% 44% 48% 59% 41% 52% 48% 创业板指 38% 75% 38% 25% 50% 38% 25% 50% 50% 38% 62% 38% 50% 50% 统计发现，三大指数2月上涨概率最高，均在65%以上，尤其是上证综指达到78%。其次是11月，总体约在59%以上。最后给出上证综指的月份涨跌幅详细数据及代码，供大家参考。 12345678d_index = &#123;'上证综指':'000001.SH','深成指':'399001.SZ','沪深300':'000300.SH', '创业板指':'399006.SZ','中证500':'000905.SH'&#125;index_name = '上证综指'df = stock_by_month(indx=d_index[index_name],ftable=True)df 1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月 首日 全年 1991 1% 3% -9% -6% 1% 19% 5% 23% 0% 20% 18% 12% 1% 127% 1992 7% 16% 4% 17% 172% 1% -12% -20% -15% -25% 52% 9% 0% 166% 1993 47% 5% -23% 43% -31% 8% -12% 6% -0% -9% 21% -14% 4% 2% 1994 -8% 2% -7% -15% -8% -14% -27% 76% 0% -7% 1% -5% 0% -22% 1995 -12% 3% 16% -12% 21% -11% 13% 1% -1% -0% -11% -12% -1% -13% 1996 -0% 3% -8% 20% -2% 25% 8% -3% 9% 13% 11% -19% -3% 70% 1997 5% 6% 16% 12% -11% -6% -1% 2% -11% 7% -3% 5% 0% 30% 1998 0% -3% 5% 7% 4% -5% 0% -12% 9% -1% 2% -7% 2% -6% 1999 1% -3% 5% -4% 15% 29% 3% 1% -2% -2% -4% -6% -2% 21% 2000 9% 2% 6% 2% 3% 1% 7% -0% -4% 2% 5% -0% 3% 47% 2001 -2% -2% 8% -0% 4% -0% -13% -8% -3% -2% 2% -7% 1% -22% 2002 -7% 3% 7% 4% -8% 17% -4% 1% -5% -4% -5% -3% -2% -16% 2003 14% 2% -1% -0% 3% -6% -1% -4% -6% -2% 2% 4% -3% 13% 2004 5% 3% 3% -9% -0% -11% -4% -2% 6% -7% 3% -5% 1% -17% 2005 -4% 10% -9% -5% -6% 4% 3% 7% -2% -4% 1% 6% -2% -7% 2006 7% 1% -1% 9% 10% -1% -5% 4% 7% 3% 13% 27% 2% 127% 2007 3% 3% 14% 18% 4% -5% 17% 21% 4% 5% -18% 8% 2% 94% 2008 -17% 1% -22% 11% -9% -21% 5% -14% -1% -20% 9% -4% 0% -65% 2009 6% 4% 13% 3% 3% 9% 13% -23% 4% 3% 4% 1% 3% 74% 2010 -8% 4% 1% -9% -9% -7% 11% -1% 1% 9% -8% -1% -1% -13% 2011 -2% 4% 0% -2% -6% 1% -2% -5% -8% 5% -6% -8% 2% -23% 2012 6% 7% -7% 4% -3% -6% -6% -4% 1% -0% -6% 16% -1% 5% 2013 5% -2% -5% -3% 6% -14% -0% 3% 4% -3% 3% -4% 0% -7% 2014 -4% 1% -2% -1% 1% 0% 7% 1% 6% 2% 10% 21% -0% 53% 2015 -4% 6% 12% 17% 3% -11% -10% -12% -4% 8% 4% 2% 4% 6% 2016 -17% -0% 10% -2% -3% 1% 2% 4% -2% 2% 4% -5% -7% -6% 2017 1% 3% -1% -4% -1% 3% 2% 2% -1% 1% -2% -0% 1% 5% 2018 4% -5% -3% -3% 0% -7% 4% -4% 4% -4% -1% -6% 1% -26%]]></content>
+      
+      
+        <tags>
+            
+            <tag> 汇率 </tag>
+            
+            <tag> 利率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>用Python分析A股市场的时间效应</title>
+      <link href="/2019/01/03/%E7%94%A8Python%E5%88%86%E6%9E%90A%E8%82%A1%E5%B8%82%E5%9C%BA%E7%9A%84%E6%97%B6%E9%97%B4%E6%95%88%E5%BA%94/"/>
+      <url>/2019/01/03/%E7%94%A8Python%E5%88%86%E6%9E%90A%E8%82%A1%E5%B8%82%E5%9C%BA%E7%9A%84%E6%97%B6%E9%97%B4%E6%95%88%E5%BA%94/</url>
+      <content type="html"><![CDATA[<blockquote><p>刚过去的2018年，中国A股市场可谓不堪回首，在全球主要股票市场中收益率垫底。2019年刚过完元旦假期，中国有讲求开门大吉的传统，股市如果开门红，心理上认为是个好的开始，讨了个好兆头。但是2019年的第一个交易日，A股上证综指、深证成指、创业板指均跌逾1%，感觉有些心塞:smile:。如果股市开门红，当年就大概率会上涨吗？如果开门绿，当年大概率会下跌吗？不论基本面和消息面上的原因，我们用数据来回答。</p></blockquote><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> tushare <span class="keyword">as</span> ts</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">pro = ts.pro_api(<span class="string">'你的接口token'</span>)</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 获取月度数据函数</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">stock_by_month</span><span class="params">(indx=<span class="string">'000001.SH'</span>,start_year=<span class="number">1991</span>,end_year=<span class="number">2018</span>,ftable=False,</span></span></span><br><span class="line"><span class="function"><span class="params">                   m_list = [<span class="string">'01'</span>,<span class="string">'02'</span>,<span class="string">'03'</span>,<span class="string">'04'</span>,<span class="string">'05'</span>,<span class="string">'06'</span>,<span class="string">'07'</span>,<span class="string">'08'</span>,<span class="string">'09'</span>,<span class="string">'10'</span>,<span class="string">'11'</span>,<span class="string">'12'</span>])</span>:</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 设定参数</span></span><br><span class="line">    tabletitle = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> m_list:</span><br><span class="line">        tabletitle.append(str(int(i))+<span class="string">'月'</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 初始化</span></span><br><span class="line"></span><br><span class="line">    df = pd.DataFrame(columns=tabletitle,</span><br><span class="line">                      index=range(start_year,end_year+<span class="number">1</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 获取指数历史行情数据</span></span><br><span class="line">    df_hq = pro.index_daily(ts_code=indx, start_date=str(start_year)+<span class="string">'0101'</span>, </span><br><span class="line">                            end_date=str(end_year)+<span class="string">'1231'</span>)</span><br><span class="line">    </span><br><span class="line"><span class="comment">#     df_hq = pd.read_csv("./data/stock_d_h.csv", encoding='utf8')</span></span><br><span class="line">    <span class="comment"># df_hq.to_csv("./data/stock_d_h.csv",encoding="utf8")</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 遍历计算每年情况</span></span><br><span class="line">    <span class="keyword">for</span> y <span class="keyword">in</span> range(start_year,end_year+<span class="number">1</span>):</span><br><span class="line">        year = str(y)</span><br><span class="line">        df_y_hq = df_hq[df_hq[<span class="string">'trade_date'</span>].str.contains(year)].reset_index(drop = <span class="keyword">True</span>)</span><br><span class="line"></span><br><span class="line">        keydate_list = [] </span><br><span class="line">        <span class="keyword">for</span> month <span class="keyword">in</span> m_list:</span><br><span class="line"></span><br><span class="line">            bool1 = df_y_hq[<span class="string">'trade_date'</span>].str.contains(year + month)</span><br><span class="line">            df_temp = df_y_hq[bool1]</span><br><span class="line">            <span class="keyword">if</span> len(df_temp)&lt;<span class="number">2</span>:</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            df_temp = df_temp.sort_values(<span class="string">'trade_date'</span>,ascending = <span class="keyword">False</span>).reset_index(drop = <span class="keyword">True</span>)</span><br><span class="line"></span><br><span class="line">            rows = len(df_temp) - <span class="number">1</span></span><br><span class="line">            keydate_list.append(df_temp.loc[rows,<span class="string">'trade_date'</span>])</span><br><span class="line">            keydate_list.append(df_temp.loc[<span class="number">0</span>,<span class="string">'trade_date'</span>])</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 获取关键交易日行情数据 </span></span><br><span class="line">        df_temp = df_y_hq[df_y_hq.trade_date.isin(keydate_list)] \</span><br><span class="line">        .reset_index(drop = <span class="keyword">True</span>)</span><br><span class="line">        df_temp = df_temp.sort_values(<span class="string">'trade_date'</span>,ascending = <span class="keyword">True</span>).reset_index(drop = <span class="keyword">True</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> len(df_temp)&lt;len(m_list)*<span class="number">2</span>:</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># 计算涨跌幅</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> range(len(tabletitle)):</span><br><span class="line"></span><br><span class="line">            df.loc[y,tabletitle[i]] = (df_temp.loc[i*<span class="number">2</span>+<span class="number">1</span>,<span class="string">'close'</span>] - df_temp.loc[i*<span class="number">2</span>,<span class="string">'close'</span>]) \</span><br><span class="line">                                        / df_temp.loc[i*<span class="number">2</span>,<span class="string">'close'</span>]</span><br><span class="line"></span><br><span class="line">        df.loc[y,<span class="string">'首日'</span>] = df_temp.loc[<span class="number">0</span>,<span class="string">'pct_chg'</span>]/<span class="number">100</span></span><br><span class="line">        df.loc[y,<span class="string">'全年'</span>] = (df_temp.loc[len(df_temp)<span class="number">-1</span>,<span class="string">'close'</span>] - df_temp.loc[<span class="number">0</span>,<span class="string">'close'</span>]) \</span><br><span class="line">        / df_temp.loc[<span class="number">0</span>,<span class="string">'close'</span>]</span><br><span class="line"></span><br><span class="line">    df = df.dropna()</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 格式化</span></span><br><span class="line">    <span class="keyword">if</span> ftable==<span class="keyword">True</span>:</span><br><span class="line">        <span class="keyword">for</span> cls <span class="keyword">in</span> df.columns:</span><br><span class="line">            df[cls] = df[cls].apply(<span class="keyword">lambda</span> x: <span class="string">'%.0f%%'</span> % (x*<span class="number">100</span>))</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> df</span><br></pre></td></tr></table></figure><h2 id="开门红重要吗"><a href="#开门红重要吗" class="headerlink" title="开门红重要吗"></a>开门红重要吗</h2><p>我们根据1991-2018年的28年数据统计发现，从上证综指、深成指,创业板指三大指数分别来看，首日上涨、全年上涨的概率并不高，最高是深成指的57%，首日下跌，全年下跌的概率最高也是深成指（62%），但上证综指和创业板的表现不显著。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">d_index = &#123;<span class="string">'上证综指'</span>:<span class="string">'000001.SH'</span>,<span class="string">'深成指'</span>:<span class="string">'399001.SZ'</span>,<span class="string">'沪深300'</span>:<span class="string">'000300.SH'</span>,</span><br><span class="line">           <span class="string">'创业板指'</span>:<span class="string">'399006.SZ'</span>,<span class="string">'中证500'</span>:<span class="string">'000905.SH'</span>&#125;</span><br><span class="line"></span><br><span class="line">index_list = [<span class="string">'上证综指'</span>,<span class="string">'深成指'</span>,<span class="string">'创业板指'</span>]</span><br><span class="line"></span><br><span class="line">df_tj = pd.DataFrame(index=index_list)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> indxname <span class="keyword">in</span> index_list:</span><br><span class="line">    </span><br><span class="line">    df = stock_by_month(indx=d_index[indxname],ftable=<span class="keyword">False</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 股票指数名称</span></span><br><span class="line">    print(<span class="string">'&#123;:-^24&#125;'</span>.format(indxname))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 首日上涨，全年上涨的概率</span></span><br><span class="line">    prob1 = len(df[(df.首日 &gt; <span class="number">0</span>) &amp; (df.全年 &gt; <span class="number">0</span>)]) / len(df[df.首日 &gt; <span class="number">0</span>])</span><br><span class="line">    print(<span class="string">'首日上涨，全年上涨的概率：'</span>,<span class="string">'&#123;:.0%&#125;'</span>.format(prob1))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 首日下跌，全年下跌的概率</span></span><br><span class="line">    prob2 = len(df[(df.首日 &lt; <span class="number">0</span>) &amp; (df.全年 &lt; <span class="number">0</span>)]) / len(df[df.首日 &lt; <span class="number">0</span>])</span><br><span class="line">    print(<span class="string">'首日下跌，全年下跌的概率：'</span>,<span class="string">'&#123;:.0%&#125;'</span>.format(prob2))</span><br></pre></td></tr></table></figure><pre><code>----------上证综指----------首日上涨，全年上涨的概率： 56%首日下跌，全年下跌的概率： 50%----------深成指-----------首日上涨，全年上涨的概率： 57%首日下跌，全年下跌的概率： 62%----------创业板指----------首日上涨，全年上涨的概率： 25%首日下跌，全年下跌的概率： 25%</code></pre><h2 id="月份效应真的存在吗"><a href="#月份效应真的存在吗" class="headerlink" title="月份效应真的存在吗"></a>月份效应真的存在吗</h2><p>我们再看看月历效应是否存在，我们依然选取三大指数作为分析基准。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">d_index = &#123;<span class="string">'上证综指'</span>:<span class="string">'000001.SH'</span>,<span class="string">'深成指'</span>:<span class="string">'399001.SZ'</span>,<span class="string">'沪深300'</span>:<span class="string">'000300.SH'</span>,</span><br><span class="line">           <span class="string">'创业板指'</span>:<span class="string">'399006.SZ'</span>,<span class="string">'中证500'</span>:<span class="string">'000905.SH'</span>&#125;</span><br><span class="line"></span><br><span class="line">index_list = [<span class="string">'上证综指'</span>,<span class="string">'深成指'</span>,<span class="string">'创业板指'</span>]</span><br><span class="line"></span><br><span class="line">df_tj = pd.DataFrame(index=index_list)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> indxname <span class="keyword">in</span> index_list:</span><br><span class="line">    </span><br><span class="line">    df = stock_by_month(indx=d_index[indxname],ftable=<span class="keyword">False</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> cls <span class="keyword">in</span> df.columns.values.tolist():</span><br><span class="line"></span><br><span class="line">            df_tj.loc[indxname,cls] = len(df[df[cls]&gt;<span class="number">0</span>])/len(df[cls])</span><br><span class="line">            </span><br><span class="line"><span class="keyword">for</span> cls <span class="keyword">in</span> df_tj.columns:</span><br><span class="line">    df_tj[cls] = df_tj[cls].apply(<span class="keyword">lambda</span> x: <span class="string">'%.0f%%'</span> % (x*<span class="number">100</span>))</span><br><span class="line">    </span><br><span class="line">df_tj</span><br></pre></td></tr></table></figure><table><thead><tr><th></th><th>1月</th><th>2月</th><th>3月</th><th>4月</th><th>5月</th><th>6月</th><th>7月</th><th>8月</th><th>9月</th><th>10月</th><th>11月</th><th>12月</th><th>首日</th><th>全年</th></tr></thead><tbody><tr><td>上证综指</td><td>57%</td><td>79%</td><td>54%</td><td>46%</td><td>54%</td><td>46%</td><td>54%</td><td>50%</td><td>46%</td><td>46%</td><td>64%</td><td>39%</td><td>64%</td><td>54%</td></tr><tr><td>深成指</td><td>48%</td><td>67%</td><td>59%</td><td>52%</td><td>48%</td><td>44%</td><td>48%</td><td>48%</td><td>44%</td><td>48%</td><td>59%</td><td>41%</td><td>52%</td><td>48%</td></tr><tr><td>创业板指</td><td>38%</td><td>75%</td><td>38%</td><td>25%</td><td>50%</td><td>38%</td><td>25%</td><td>50%</td><td>50%</td><td>38%</td><td>62%</td><td>38%</td><td>50%</td><td>50%</td></tr></tbody></table><p>统计发现，三大指数2月上涨概率最高，均在65%以上，尤其是上证综指达到78%。其次是11月，总体约在59%以上。最后给出上证综指的月份涨跌幅详细数据及代码，供大家参考。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">d_index = &#123;<span class="string">'上证综指'</span>:<span class="string">'000001.SH'</span>,<span class="string">'深成指'</span>:<span class="string">'399001.SZ'</span>,<span class="string">'沪深300'</span>:<span class="string">'000300.SH'</span>,</span><br><span class="line">           <span class="string">'创业板指'</span>:<span class="string">'399006.SZ'</span>,<span class="string">'中证500'</span>:<span class="string">'000905.SH'</span>&#125;</span><br><span class="line"></span><br><span class="line">index_name = <span class="string">'上证综指'</span></span><br><span class="line"></span><br><span class="line">df = stock_by_month(indx=d_index[index_name],ftable=<span class="keyword">True</span>)</span><br><span class="line"></span><br><span class="line">df</span><br></pre></td></tr></table></figure><table><thead><tr><th></th><th>1月</th><th>2月</th><th>3月</th><th>4月</th><th>5月</th><th>6月</th><th>7月</th><th>8月</th><th>9月</th><th>10月</th><th>11月</th><th>12月</th><th>首日</th><th>全年</th></tr></thead><tbody><tr><td>1991</td><td>1%</td><td>3%</td><td>-9%</td><td>-6%</td><td>1%</td><td>19%</td><td>5%</td><td>23%</td><td>0%</td><td>20%</td><td>18%</td><td>12%</td><td>1%</td><td>127%</td></tr><tr><td>1992</td><td>7%</td><td>16%</td><td>4%</td><td>17%</td><td>172%</td><td>1%</td><td>-12%</td><td>-20%</td><td>-15%</td><td>-25%</td><td>52%</td><td>9%</td><td>0%</td><td>166%</td></tr><tr><td>1993</td><td>47%</td><td>5%</td><td>-23%</td><td>43%</td><td>-31%</td><td>8%</td><td>-12%</td><td>6%</td><td>-0%</td><td>-9%</td><td>21%</td><td>-14%</td><td>4%</td><td>2%</td></tr><tr><td>1994</td><td>-8%</td><td>2%</td><td>-7%</td><td>-15%</td><td>-8%</td><td>-14%</td><td>-27%</td><td>76%</td><td>0%</td><td>-7%</td><td>1%</td><td>-5%</td><td>0%</td><td>-22%</td></tr><tr><td>1995</td><td>-12%</td><td>3%</td><td>16%</td><td>-12%</td><td>21%</td><td>-11%</td><td>13%</td><td>1%</td><td>-1%</td><td>-0%</td><td>-11%</td><td>-12%</td><td>-1%</td><td>-13%</td></tr><tr><td>1996</td><td>-0%</td><td>3%</td><td>-8%</td><td>20%</td><td>-2%</td><td>25%</td><td>8%</td><td>-3%</td><td>9%</td><td>13%</td><td>11%</td><td>-19%</td><td>-3%</td><td>70%</td></tr><tr><td>1997</td><td>5%</td><td>6%</td><td>16%</td><td>12%</td><td>-11%</td><td>-6%</td><td>-1%</td><td>2%</td><td>-11%</td><td>7%</td><td>-3%</td><td>5%</td><td>0%</td><td>30%</td></tr><tr><td>1998</td><td>0%</td><td>-3%</td><td>5%</td><td>7%</td><td>4%</td><td>-5%</td><td>0%</td><td>-12%</td><td>9%</td><td>-1%</td><td>2%</td><td>-7%</td><td>2%</td><td>-6%</td></tr><tr><td>1999</td><td>1%</td><td>-3%</td><td>5%</td><td>-4%</td><td>15%</td><td>29%</td><td>3%</td><td>1%</td><td>-2%</td><td>-2%</td><td>-4%</td><td>-6%</td><td>-2%</td><td>21%</td></tr><tr><td>2000</td><td>9%</td><td>2%</td><td>6%</td><td>2%</td><td>3%</td><td>1%</td><td>7%</td><td>-0%</td><td>-4%</td><td>2%</td><td>5%</td><td>-0%</td><td>3%</td><td>47%</td></tr><tr><td>2001</td><td>-2%</td><td>-2%</td><td>8%</td><td>-0%</td><td>4%</td><td>-0%</td><td>-13%</td><td>-8%</td><td>-3%</td><td>-2%</td><td>2%</td><td>-7%</td><td>1%</td><td>-22%</td></tr><tr><td>2002</td><td>-7%</td><td>3%</td><td>7%</td><td>4%</td><td>-8%</td><td>17%</td><td>-4%</td><td>1%</td><td>-5%</td><td>-4%</td><td>-5%</td><td>-3%</td><td>-2%</td><td>-16%</td></tr><tr><td>2003</td><td>14%</td><td>2%</td><td>-1%</td><td>-0%</td><td>3%</td><td>-6%</td><td>-1%</td><td>-4%</td><td>-6%</td><td>-2%</td><td>2%</td><td>4%</td><td>-3%</td><td>13%</td></tr><tr><td>2004</td><td>5%</td><td>3%</td><td>3%</td><td>-9%</td><td>-0%</td><td>-11%</td><td>-4%</td><td>-2%</td><td>6%</td><td>-7%</td><td>3%</td><td>-5%</td><td>1%</td><td>-17%</td></tr><tr><td>2005</td><td>-4%</td><td>10%</td><td>-9%</td><td>-5%</td><td>-6%</td><td>4%</td><td>3%</td><td>7%</td><td>-2%</td><td>-4%</td><td>1%</td><td>6%</td><td>-2%</td><td>-7%</td></tr><tr><td>2006</td><td>7%</td><td>1%</td><td>-1%</td><td>9%</td><td>10%</td><td>-1%</td><td>-5%</td><td>4%</td><td>7%</td><td>3%</td><td>13%</td><td>27%</td><td>2%</td><td>127%</td></tr><tr><td>2007</td><td>3%</td><td>3%</td><td>14%</td><td>18%</td><td>4%</td><td>-5%</td><td>17%</td><td>21%</td><td>4%</td><td>5%</td><td>-18%</td><td>8%</td><td>2%</td><td>94%</td></tr><tr><td>2008</td><td>-17%</td><td>1%</td><td>-22%</td><td>11%</td><td>-9%</td><td>-21%</td><td>5%</td><td>-14%</td><td>-1%</td><td>-20%</td><td>9%</td><td>-4%</td><td>0%</td><td>-65%</td></tr><tr><td>2009</td><td>6%</td><td>4%</td><td>13%</td><td>3%</td><td>3%</td><td>9%</td><td>13%</td><td>-23%</td><td>4%</td><td>3%</td><td>4%</td><td>1%</td><td>3%</td><td>74%</td></tr><tr><td>2010</td><td>-8%</td><td>4%</td><td>1%</td><td>-9%</td><td>-9%</td><td>-7%</td><td>11%</td><td>-1%</td><td>1%</td><td>9%</td><td>-8%</td><td>-1%</td><td>-1%</td><td>-13%</td></tr><tr><td>2011</td><td>-2%</td><td>4%</td><td>0%</td><td>-2%</td><td>-6%</td><td>1%</td><td>-2%</td><td>-5%</td><td>-8%</td><td>5%</td><td>-6%</td><td>-8%</td><td>2%</td><td>-23%</td></tr><tr><td>2012</td><td>6%</td><td>7%</td><td>-7%</td><td>4%</td><td>-3%</td><td>-6%</td><td>-6%</td><td>-4%</td><td>1%</td><td>-0%</td><td>-6%</td><td>16%</td><td>-1%</td><td>5%</td></tr><tr><td>2013</td><td>5%</td><td>-2%</td><td>-5%</td><td>-3%</td><td>6%</td><td>-14%</td><td>-0%</td><td>3%</td><td>4%</td><td>-3%</td><td>3%</td><td>-4%</td><td>0%</td><td>-7%</td></tr><tr><td>2014</td><td>-4%</td><td>1%</td><td>-2%</td><td>-1%</td><td>1%</td><td>0%</td><td>7%</td><td>1%</td><td>6%</td><td>2%</td><td>10%</td><td>21%</td><td>-0%</td><td>53%</td></tr><tr><td>2015</td><td>-4%</td><td>6%</td><td>12%</td><td>17%</td><td>3%</td><td>-11%</td><td>-10%</td><td>-12%</td><td>-4%</td><td>8%</td><td>4%</td><td>2%</td><td>4%</td><td>6%</td></tr><tr><td>2016</td><td>-17%</td><td>-0%</td><td>10%</td><td>-2%</td><td>-3%</td><td>1%</td><td>2%</td><td>4%</td><td>-2%</td><td>2%</td><td>4%</td><td>-5%</td><td>-7%</td><td>-6%</td></tr><tr><td>2017</td><td>1%</td><td>3%</td><td>-1%</td><td>-4%</td><td>-1%</td><td>3%</td><td>2%</td><td>2%</td><td>-1%</td><td>1%</td><td>-2%</td><td>-0%</td><td>1%</td><td>5%</td></tr><tr><td>2018</td><td>4%</td><td>-5%</td><td>-3%</td><td>-3%</td><td>0%</td><td>-7%</td><td>4%</td><td>-4%</td><td>4%</td><td>-4%</td><td>-1%</td><td>-6%</td><td>1%</td><td>-26%</td></tr></tbody></table>]]></content>
+      
       <categories>
-        <category>数据分析</category>
+          
+          <category> 数据分析 </category>
+          
       </categories>
-      <tags>
-        <tag>股票</tag>
-        <tag>python</tag>
-        <tag>月份效应</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[利用Tushare做新闻数据挖掘]]></title>
-    <url>%2F2018%2F12%2F28%2F%E5%88%A9%E7%94%A8Tushare%E5%81%9A%E6%96%B0%E9%97%BB%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%2F</url>
-    <content type="text"><![CDATA[众所周知，Tushare是一个免费、开源的python财经数据接口包。主要实现对股票、期货、基金等金融相关数据的数据采集、清洗加工到数据存储的过程，为从事金融的人士提供快速、整洁、和多样的便于分析的结构化数据，为他们在数据获取与整理方面减轻工作量，使他们更加专注于策略和模型的研究与实现上。Tushare目前升级为Tushare Pro，数据从广度和深度都得到了提升，数据内容扩大到包含期权、新闻等，同时包括了数字货币行情等区块链数据，最近上线了近10年CCTV新闻联播文本数据。 本文运用Tushare和python对新闻联播数据进行提取与整理，试图从中挖掘出能够对股票市场有价值的信息，并通过可视化工具展示出来，希望能起到抛砖引玉的作用。### 提取某日新闻联播的标题及内容12345678910import tushare as tsimport pandas as pdfrom IPython.core.interactiveshell import InteractiveShellInteractiveShell.ast_node_interactivity = "all"pro = ts.pro_api('你的接口token')df = pro.cctv_news(date='20181226')df # 显示当天所有内容df.loc[5,'title'] #显示第5条新闻标题df.loc[5,'content'] #显示第5条新闻内容全文 词频统计与词云图12345678from pyecharts import WordCloudall = pd.read_csv('./data/cctv_done/all.csv', encoding='utf8')name = list(all.head(100)['keyword'].values)val = list(all.head(100)['count'].values)wordcloud = WordCloud(width=900, height=620)wordcloud.add("", name, val, word_size_range=[20, 100])wordcloud 我们将近10年的新闻联播文本提取出来后存为csv文件，然后借助jieba分词工具，我们可以快速的实现文本的分词功能。同时可以设置关键字黑名单和白名单，过滤不需要的，提取想要的关键词。对于最具影响力的新闻节目，可能很多人第一想到的是哪些关键词出现的次数最多？对于常见新闻词语，一定逃不出你的预料之中，下面这个词云图可以验证你的判断。 显示省会热度1234567891011121314from pyecharts import Bar# 显示近三年各省省会出现的频次pro_data = pd.read_csv('./data/cctv_done/procity_count_list.csv', encoding='utf8')bar = Bar("", width=1000, height=500)ps = pro_data.groupby(['key', 'year']).sum().reset_index()attr = list(ps['key'].drop_duplicates().values)for x in range(2016, 2019): val = ps[ps.year == x] val = list(val['count'].values) bar.add(str(x), attr, val, is_stack=True, xaxis_interval=0, xaxis_rotate=60, yaxis_rotate=30)bar 我们发现近三年，杭州、海口、武汉、南昌提到较为频繁，海口的频繁提到应该跟海南建设自由贸易试验区、探索建设中国特色自由贸易港的相关政策有关。 显示国家热度123456789101112from pyecharts import Linecdss = ctdf_all.head(10)attr = [str(year) for year in range(2009, 2019)]line = Line("")for ckey in cdss['key'].values: val = ctdfs[ctdfs.key == ckey]['count'].values line.add(ckey, attr, val, is_smooth=True)line 国家频次图可以体现出国际关系方面的情况变化，从上图可以发现，美国、俄罗斯出现在新闻联播出现的频次一直很高，而且近年呈上升趋势，而日本在2015年以后，提到的次数越来越少。 显示特定关键词热度1234567891011from pyecharts import Barkeyword = '一带一路'df = pd.read_csv('./data/cctv_done/year_done.csv', encoding='utf8')word_df = df[df.key == keyword]bar = Bar()attr = word_df['year'].valuesval = word_df['count'].valuesbar.add(keyword, attr, val,is_label_show=True)bar 通过上图可以看出，关键词“一带一路”从2014提出来之后，整体呈现逐年热度递增的态势。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 股票 </tag>
+            
+            <tag> python </tag>
+            
+            <tag> 月份效应 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>利用Tushare做新闻数据挖掘</title>
+      <link href="/2018/12/28/%E5%88%A9%E7%94%A8Tushare%E5%81%9A%E6%96%B0%E9%97%BB%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
+      <url>/2018/12/28/%E5%88%A9%E7%94%A8Tushare%E5%81%9A%E6%96%B0%E9%97%BB%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</url>
+      <content type="html"><![CDATA[<p>众所周知，Tushare是一个免费、开源的python财经数据接口包。主要实现对股票、期货、基金等金融相关数据的数据采集、清洗加工到数据存储的过程，为从事金融的人士提供快速、整洁、和多样的便于分析的结构化数据，为他们在数据获取与整理方面减轻工作量，使他们更加专注于策略和模型的研究与实现上。Tushare目前升级为Tushare Pro，数据从广度和深度都得到了提升，数据内容扩大到包含期权、新闻等，同时包括了数字货币行情等区块链数据，最近上线了近10年CCTV新闻联播文本数据。</p><div style="text-align:center"><br>    <img src="/img/cctvnews_0.png" alt=""><br></div><br>本文运用Tushare和python对新闻联播数据进行提取与整理，试图从中挖掘出能够对股票市场有价值的信息，并通过可视化工具展示出来，希望能起到抛砖引玉的作用。<br><br>###  提取某日新闻联播的标题及内容<br><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> tushare <span class="keyword">as</span> ts</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> IPython.core.interactiveshell <span class="keyword">import</span> InteractiveShell</span><br><span class="line">InteractiveShell.ast_node_interactivity = <span class="string">"all"</span></span><br><span class="line"></span><br><span class="line">pro = ts.pro_api(<span class="string">'你的接口token'</span>)</span><br><span class="line">df = pro.cctv_news(date=<span class="string">'20181226'</span>)</span><br><span class="line">df <span class="comment"># 显示当天所有内容</span></span><br><span class="line">df.loc[<span class="number">5</span>,<span class="string">'title'</span>] <span class="comment">#显示第5条新闻标题</span></span><br><span class="line">df.loc[<span class="number">5</span>,<span class="string">'content'</span>] <span class="comment">#显示第5条新闻内容全文</span></span><br></pre></td></tr></table></figure><br><br><div style="text-align:center"><br>    <img src="/img/cctvnews_1.png" alt=""><br></div><h3 id="词频统计与词云图"><a href="#词频统计与词云图" class="headerlink" title="词频统计与词云图"></a>词频统计与词云图</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyecharts <span class="keyword">import</span> WordCloud</span><br><span class="line"></span><br><span class="line">all = pd.read_csv(<span class="string">'./data/cctv_done/all.csv'</span>, encoding=<span class="string">'utf8'</span>)</span><br><span class="line">name = list(all.head(<span class="number">100</span>)[<span class="string">'keyword'</span>].values)</span><br><span class="line">val = list(all.head(<span class="number">100</span>)[<span class="string">'count'</span>].values)</span><br><span class="line">wordcloud = WordCloud(width=<span class="number">900</span>, height=<span class="number">620</span>)</span><br><span class="line">wordcloud.add(<span class="string">""</span>, name, val, word_size_range=[<span class="number">20</span>, <span class="number">100</span>])</span><br><span class="line">wordcloud</span><br></pre></td></tr></table></figure><p>我们将近10年的新闻联播文本提取出来后存为csv文件，然后借助jieba分词工具，我们可以快速的实现文本的分词功能。同时可以设置关键字黑名单和白名单，过滤不需要的，提取想要的关键词。对于最具影响力的新闻节目，可能很多人第一想到的是哪些关键词出现的次数最多？对于常见新闻词语，一定逃不出你的预料之中，下面这个词云图可以验证你的判断。</p><div style="text-align:center"><br>    <img src="/img/cctvnews_2.png" alt=""><br></div><h3 id="显示省会热度"><a href="#显示省会热度" class="headerlink" title="显示省会热度"></a>显示省会热度</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyecharts <span class="keyword">import</span> Bar</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示近三年各省省会出现的频次</span></span><br><span class="line">pro_data = pd.read_csv(<span class="string">'./data/cctv_done/procity_count_list.csv'</span>, encoding=<span class="string">'utf8'</span>)</span><br><span class="line">bar = Bar(<span class="string">""</span>, width=<span class="number">1000</span>, height=<span class="number">500</span>)</span><br><span class="line">ps = pro_data.groupby([<span class="string">'key'</span>, <span class="string">'year'</span>]).sum().reset_index()</span><br><span class="line">attr = list(ps[<span class="string">'key'</span>].drop_duplicates().values)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">2016</span>, <span class="number">2019</span>):</span><br><span class="line">    val = ps[ps.year == x]</span><br><span class="line">    val = list(val[<span class="string">'count'</span>].values)</span><br><span class="line">    bar.add(str(x), attr, val, is_stack=<span class="keyword">True</span>, xaxis_interval=<span class="number">0</span>, xaxis_rotate=<span class="number">60</span>, yaxis_rotate=<span class="number">30</span>)</span><br><span class="line"></span><br><span class="line">bar</span><br></pre></td></tr></table></figure><div style="text-align:center"><br>    <img src="/img/cctvnews_3.png" alt=""><br></div><p>我们发现近三年，杭州、海口、武汉、南昌提到较为频繁，海口的频繁提到应该跟海南建设自由贸易试验区、探索建设中国特色自由贸易港的相关政策有关。</p><h3 id="显示国家热度"><a href="#显示国家热度" class="headerlink" title="显示国家热度"></a>显示国家热度</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyecharts <span class="keyword">import</span> Line</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">cdss = ctdf_all.head(<span class="number">10</span>)</span><br><span class="line">attr = [str(year) <span class="keyword">for</span> year <span class="keyword">in</span> range(<span class="number">2009</span>, <span class="number">2019</span>)]</span><br><span class="line">line = Line(<span class="string">""</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> ckey <span class="keyword">in</span> cdss[<span class="string">'key'</span>].values:</span><br><span class="line">    val = ctdfs[ctdfs.key == ckey][<span class="string">'count'</span>].values</span><br><span class="line">    line.add(ckey, attr, val, is_smooth=<span class="keyword">True</span>)</span><br><span class="line"></span><br><span class="line">line</span><br></pre></td></tr></table></figure><div style="text-align:center"><br>    <img src="/img/cctvnews_4.png" alt=""><br></div><p>国家频次图可以体现出国际关系方面的情况变化，从上图可以发现，美国、俄罗斯出现在新闻联播出现的频次一直很高，而且近年呈上升趋势，而日本在2015年以后，提到的次数越来越少。</p><h3 id="显示特定关键词热度"><a href="#显示特定关键词热度" class="headerlink" title="显示特定关键词热度"></a>显示特定关键词热度</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyecharts <span class="keyword">import</span> Bar</span><br><span class="line">keyword = <span class="string">'一带一路'</span></span><br><span class="line"></span><br><span class="line">df = pd.read_csv(<span class="string">'./data/cctv_done/year_done.csv'</span>, encoding=<span class="string">'utf8'</span>)</span><br><span class="line">word_df = df[df.key == keyword]</span><br><span class="line"></span><br><span class="line">bar = Bar()</span><br><span class="line">attr = word_df[<span class="string">'year'</span>].values</span><br><span class="line">val = word_df[<span class="string">'count'</span>].values</span><br><span class="line">bar.add(keyword, attr, val,is_label_show=<span class="keyword">True</span>)</span><br><span class="line">bar</span><br></pre></td></tr></table></figure><div style="text-align:center"><br>    <img src="/img/cctvnews_5.png" alt=""><br></div><p>通过上图可以看出，关键词“一带一路”从2014提出来之后，整体呈现逐年热度递增的态势。</p>]]></content>
+      
       <categories>
-        <category>数据分析</category>
+          
+          <category> 数据分析 </category>
+          
       </categories>
-      <tags>
-        <tag>新闻</tag>
-        <tag>数据挖掘</tag>
-        <tag>Tushare</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[展望2019，量化对冲仍是A股首选策略]]></title>
-    <url>%2F2018%2F12%2F25%2F%E5%B1%95%E6%9C%9B2019%EF%BC%8C%E9%87%8F%E5%8C%96%E5%AF%B9%E5%86%B2%E4%BB%8D%E6%98%AFA%E8%82%A1%E9%A6%96%E9%80%89%E7%AD%96%E7%95%A5%2F</url>
-    <content type="text"><![CDATA[2018年10月份以来，美股开始下跌，进入12月份，出于对加息的担忧，标普500进一步回撤，已自高位回撤15%左右。市场担忧美股趋势反转，对A股形成进一步的打击。 其实从沪深300与标普500的对比来看，两者的主要走势相关性并不显著，主要取决于各自国内经济情况。海外市场波动主要是通过投资者风险偏好来传导到国内市场的。投资者除了担忧美股反转造成的外溢效应，其实更应该担忧美元走强，人民币对美元的过快贬值。中国人口红利消失，各种生产要素成本上升，外需遇到瓶颈，2014年人民币结束长期对美元升值，进入贬值周期。人民币对美元汇率的变化综合体现了中美国力增速的边际变化。当前中美当前货币政策的背离以及中美贸易摩擦的长期性，也加剧了这种担忧。 中美货币政策背道而驰2018年12月20日凌晨，美联储货币政策会后公布，所有货币政策委员会FOMC投票官员一致同意加息25个基点，将联邦基金利率目标区间上调至2.25%-2.5%。联储决策者目前对2019年底联邦基金利率的预测中位值为2.875%、约为2.9%，暗示2019年将加息两次，而2018年9月点阵图暗示，预计2019年将加息三次，当时预计的中位值为3.125%。 CME FedWatch Tool显示，截止12月21日，市场主流预期没有美联储官员那么乐观，2019年没有一次会议加息的概率超过50%。甚至2020年后市场预期有可能降息。 12月19日晚间，中国央行宣布决定创设“定向中期借贷便利”（TMLF）。TMLF资金可使用三年，操作利率比中期借贷便利（MLF）利率优惠15个基点，目前为3.15%。自2014年以来中国主要通过公开市场和降准的方式来降低融资成本。 从历史上看，美国名义利率的上升对美国股市的影响并不显著，相反加息的时候，往往是牛市。但通过几轮QE扩表，资产负债表正常化则需要“缩表”，加息影响的是短端利率，而缩表与长端利率挂钩更甚，加息引致的收益率曲线的扭曲形态可以通过缩表修复。因此，2016年至今主要是加息为主，2019年之后将主要由缩表推进。加息影响名义利率，推高美元，而缩表则对主要对流动性造成影响。因此我们有理由相信，美元的上升空间将比较有限。 美国GDP和股市走势有较密切的相关性，美股具有经济晴雨表的特征。当前美国GDP趋势依然是向上的，所以判断美国股市拐点还为时尚早。如果GDP出现拐头，则需要警惕。 打铁还需自身硬除了海外市场波动，企业盈利/估值、政策（监管、改革）、投资者结构等都会影响到市场风险偏好，当前企业估值水平处于历史低位，政策方面明年定调是稳字当头和提振市场信心。机构投资者占比进一步扩大。这些从风险偏好的角度来说，都有利于A股。我们知道，除了市场风险偏好，股市还受企业基本面和资金面来驱动。我们来进一步分析国内市况。 我们选择了沪深300来代表A股的走势。国内GDP对股市的解释力并不是很强，尤其是在2014-2015年。那么是什么原因导致的呢，企业基本面受宏观经济、行业政策和企业微观影响。GDP能够基本反映宏观经济情况。相较欧美发达国家，中国正处于工业现代化的中后期，投资需求仍是主要经济驱动引擎。 2005-2007年的行情是二、三产业的共同上升带来的，受益于大规模投资刺激，2009年的行情主要是第二产业推动的，2011年后第二产业一直处于下滑态势，2014下半年-2015上半年的牛市中，只有第三产业企稳回升，得到边际改善。 因为改善是结构性的，需求端并未明显好转，上游价格的下滑，带来成本端的改善，对中下游企业利润有改善，我们可以从CPI-PPI来看出端倪，我们发现当CPI-PPI为正值时，中下游上市公司往往表现较好。（这里我们选用万得全A） 但是在我国投资需求仍然占据主导，中下游企业的成本端改善不足以支撑2014-2015的大牛市。 资金面上，主要受流入股市的资金总量和资金成本决定：首先，从资金量来看，我们用M1-M2来观察，M1是重要的流动性和经济活跃度指标。M2=M1+居民储蓄存款＋单位定期存款＋单位其他存款＋证券公司客户保证金。如果M1增速大于M2，意味着企业的活期存款增速大于定期存款增速，企业和居民交易活跃，微观主体盈利能力较强，经济景气度上升。反之则微观个体盈利能力下降，未来可选择的投资机会有限，多余的资金开始从实体经济中沉淀下来，经济运行回落。 我们可以发现，2014-2015牛市期间，M1-M2表现为较低水平，说明资金并未流向实体经济，脱实向虚，2014年最大吸纳社会资金的房地产尚未出现大幅上涨，而股市已经经历了三年熊市，且估值处于较低水平，彼时政府鼓励大力发展直接融资，股市成为居民投资的重要选择，这促成了2015年股市的大涨，之后资金主要流向房市。 为有效遏制资本在金融体系内空转，促进资金脱虚向实，2016年底的中央经济工作会议把防风险提升到了前所未有的高度。从2016年四季度开始，以一行三会为核心的金融监管机构开始大力推进金融去杠杆。银行信贷收紧，企业各个融资渠道都面临价格上涨、额度紧张。M1-M2自2017年快速下行，货币供应再趋紧张。 我们来看看融资成本方面的变化。在中国社会平均融资结构中，人民币贷款占比70%，起着决定性的作用，金融机构人民币贷款利率走势基本决定了社会平均融资成本的趋势。2012-2014年央行三次降息，引导市场利率下降，2017年开始金融去杠杆，影子银行规模受到挤压，本身大部分中小企业很难通过正规渠道获得低成本的资金，导致实际融资成本上升。 年底展望站在2018年底，投资者风险偏好边际改善，但国内去杠杆情况、中美贸易摩擦需要给予继续关注；基本面来看，2016年至今的供给侧改革，导致中下游企业成本再度上升，如果2019年大宗商品整体下行，同时国内大规模减税政策落地，那么企业利润边际改善可期。资金面来看，M1-M2尚未拐头，融资成本有望得到改善。综合来看，2019年A股市场仍有较大不确定性，量化对冲仍是稳中求进的最佳策略。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 新闻 </tag>
+            
+            <tag> 数据挖掘 </tag>
+            
+            <tag> Tushare </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>展望2019，量化对冲仍是A股首选策略</title>
+      <link href="/2018/12/25/%E5%B1%95%E6%9C%9B2019%EF%BC%8C%E9%87%8F%E5%8C%96%E5%AF%B9%E5%86%B2%E4%BB%8D%E6%98%AFA%E8%82%A1%E9%A6%96%E9%80%89%E7%AD%96%E7%95%A5/"/>
+      <url>/2018/12/25/%E5%B1%95%E6%9C%9B2019%EF%BC%8C%E9%87%8F%E5%8C%96%E5%AF%B9%E5%86%B2%E4%BB%8D%E6%98%AFA%E8%82%A1%E9%A6%96%E9%80%89%E7%AD%96%E7%95%A5/</url>
+      <content type="html"><![CDATA[<p>2018年10月份以来，美股开始下跌，进入12月份，出于对加息的担忧，标普500进一步回撤，已自高位回撤15%左右。市场担忧美股趋势反转，对A股形成进一步的打击。</p><div style="text-align:center"><br>    <img src="/img/clip_image002.jpg" alt=""><br></div><p>其实从沪深300与标普500的对比来看，两者的主要走势相关性并不显著，主要取决于各自国内经济情况。海外市场波动主要是通过投资者风险偏好来传导到国内市场的。投资者除了担忧美股反转造成的外溢效应，其实更应该担忧美元走强，人民币对美元的过快贬值。中国人口红利消失，各种生产要素成本上升，外需遇到瓶颈，2014年人民币结束长期对美元升值，进入贬值周期。人民币对美元汇率的变化综合体现了中美国力增速的边际变化。当前中美当前货币政策的背离以及中美贸易摩擦的长期性，也加剧了这种担忧。</p><div style="text-align:center"><br>    <img src="/img/clip_image004.jpg" alt=""><br></div><div style="text-align:center"><br>    <img src="/img/clip_image006.jpg" alt=""><br></div><h3 id="中美货币政策背道而驰"><a href="#中美货币政策背道而驰" class="headerlink" title="中美货币政策背道而驰"></a>中美货币政策背道而驰</h3><p>2018年12月20日凌晨，美联储货币政策会后公布，所有货币政策委员会FOMC投票官员一致同意加息25个基点，将联邦基金利率目标区间上调至2.25%-2.5%。联储决策者目前对2019年底联邦基金利率的预测中位值为2.875%、约为2.9%，暗示2019年将加息两次，而2018年9月点阵图暗示，预计2019年将加息三次，当时预计的中位值为3.125%。</p><div style="text-align:center"><br>    <img src="/img/clip_image008.jpg" alt=""><br></div><p>CME FedWatch Tool显示，截止12月21日，市场主流预期没有美联储官员那么乐观，2019年没有一次会议加息的概率超过50%。甚至2020年后市场预期有可能降息。</p><p>12月19日晚间，中国央行宣布决定创设“定向中期借贷便利”（TMLF）。TMLF资金可使用三年，操作利率比中期借贷便利（MLF）利率优惠15个基点，目前为3.15%。自2014年以来中国主要通过公开市场和降准的方式来降低融资成本。</p><div style="text-align:center"><br>    <img src="/img/clip_image010.jpg" alt=""><br></div><p>从历史上看，美国名义利率的上升对美国股市的影响并不显著，相反加息的时候，往往是牛市。但通过几轮QE扩表，资产负债表正常化则需要“缩表”，加息影响的是短端利率，而缩表与长端利率挂钩更甚，加息引致的收益率曲线的扭曲形态可以通过缩表修复。因此，2016年至今主要是加息为主，2019年之后将主要由缩表推进。加息影响名义利率，推高美元，而缩表则对主要对流动性造成影响。因此我们有理由相信，美元的上升空间将比较有限。</p><div style="text-align:center"><br>    <img src="/img/clip_image012.jpg" alt=""><br></div><p>美国GDP和股市走势有较密切的相关性，美股具有经济晴雨表的特征。当前美国GDP趋势依然是向上的，所以判断美国股市拐点还为时尚早。如果GDP出现拐头，则需要警惕。</p><h3 id="打铁还需自身硬"><a href="#打铁还需自身硬" class="headerlink" title="打铁还需自身硬"></a>打铁还需自身硬</h3><p>除了海外市场波动，企业盈利/估值、政策（监管、改革）、投资者结构等都会影响到市场风险偏好，当前企业估值水平处于历史低位，政策方面明年定调是稳字当头和提振市场信心。机构投资者占比进一步扩大。这些从风险偏好的角度来说，都有利于A股。我们知道，除了市场风险偏好，股市还受企业基本面和资金面来驱动。我们来进一步分析国内市况。</p><div style="text-align:center"><br>    <img src="/img/clip_image014.jpg" alt=""><br></div><p>我们选择了沪深300来代表A股的走势。国内GDP对股市的解释力并不是很强，尤其是在2014-2015年。那么是什么原因导致的呢，企业基本面受宏观经济、行业政策和企业微观影响。GDP能够基本反映宏观经济情况。相较欧美发达国家，中国正处于工业现代化的中后期，投资需求仍是主要经济驱动引擎。</p><div style="text-align:center"><br>    <img src="/img/clip_image016.jpg" alt=""><br></div><p>2005-2007年的行情是二、三产业的共同上升带来的，受益于大规模投资刺激，2009年的行情主要是第二产业推动的，2011年后第二产业一直处于下滑态势，2014下半年-2015上半年的牛市中，只有第三产业企稳回升，得到边际改善。</p><p>因为改善是结构性的，需求端并未明显好转，上游价格的下滑，带来成本端的改善，对中下游企业利润有改善，我们可以从CPI-PPI来看出端倪，我们发现当CPI-PPI为正值时，中下游上市公司往往表现较好。（这里我们选用万得全A）</p><div style="text-align:center"><br>    <img src="/img/clip_image018.jpg" alt=""><br></div><p>但是在我国投资需求仍然占据主导，中下游企业的成本端改善不足以支撑2014-2015的大牛市。</p><p>资金面上，主要受流入股市的资金总量和资金成本决定：首先，从资金量来看，我们用M1-M2来观察，M1是重要的流动性和经济活跃度指标。M2=M1+居民储蓄存款＋单位定期存款＋单位其他存款＋证券公司客户保证金。如果M1增速大于M2，意味着企业的活期存款增速大于定期存款增速，企业和居民交易活跃，微观主体盈利能力较强，经济景气度上升。反之则微观个体盈利能力下降，未来可选择的投资机会有限，多余的资金开始从实体经济中沉淀下来，经济运行回落。</p><div style="text-align:center"><br>    <img src="/img/clip_image020.jpg" alt=""><br></div><p>我们可以发现，2014-2015牛市期间，M1-M2表现为较低水平，说明资金并未流向实体经济，脱实向虚，2014年最大吸纳社会资金的房地产尚未出现大幅上涨，而股市已经经历了三年熊市，且估值处于较低水平，彼时政府鼓励大力发展直接融资，股市成为居民投资的重要选择，这促成了2015年股市的大涨，之后资金主要流向房市。</p><p>为有效遏制资本在金融体系内空转，促进资金脱虚向实，2016年底的中央经济工作会议把防风险提升到了前所未有的高度。从2016年四季度开始，以一行三会为核心的金融监管机构开始大力推进金融去杠杆。银行信贷收紧，企业各个融资渠道都面临价格上涨、额度紧张。M1-M2自2017年快速下行，货币供应再趋紧张。</p><div style="text-align:center"><br>    <img src="/img/clip_image022.jpg" alt=""><br></div><p>我们来看看融资成本方面的变化。在中国社会平均融资结构中，人民币贷款占比70%，起着决定性的作用，金融机构人民币贷款利率走势基本决定了社会平均融资成本的趋势。2012-2014年央行三次降息，引导市场利率下降，2017年开始金融去杠杆，影子银行规模受到挤压，本身大部分中小企业很难通过正规渠道获得低成本的资金，导致实际融资成本上升。</p><h3 id="年底展望"><a href="#年底展望" class="headerlink" title="年底展望"></a>年底展望</h3><p>站在2018年底，投资者风险偏好边际改善，但国内去杠杆情况、中美贸易摩擦需要给予继续关注；基本面来看，2016年至今的供给侧改革，导致中下游企业成本再度上升，如果2019年大宗商品整体下行，同时国内大规模减税政策落地，那么企业利润边际改善可期。资金面来看，M1-M2尚未拐头，融资成本有望得到改善。综合来看，2019年A股市场仍有较大不确定性，量化对冲仍是稳中求进的最佳策略。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>数据分析</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hexo Next 的 Busuanzi 统计浏览失效的解决办法]]></title>
-    <url>%2F2018%2F10%2F19%2FHexo%20Next%20%E7%9A%84%20Busuanzi%20%E7%BB%9F%E8%AE%A1%E6%B5%8F%E8%A7%88%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%2F</url>
-    <content type="text"><![CDATA[问题描述2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去不蒜子网站发现有重要提示，原来js的网址发生了变更。按照网站给出的方法更改后仍然不显示，经验证，还需要修改一处，就能恢复如初。总结如下。 解决方案 Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件 12将 src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”修改为 src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js” Step2：打开\themes\next\layout_partials\下的footer.swig文件 12将 src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”修改为 src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”]]></content>
+      
+      
+        <tags>
+            
+            <tag> 数据分析 </tag>
+            
+            <tag> 股票 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hexo Next 的 Busuanzi 统计浏览失效的解决办法</title>
+      <link href="/2018/10/19/Hexo%20Next%20%E7%9A%84%20Busuanzi%20%E7%BB%9F%E8%AE%A1%E6%B5%8F%E8%A7%88%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+      <url>/2018/10/19/Hexo%20Next%20%E7%9A%84%20Busuanzi%20%E7%BB%9F%E8%AE%A1%E6%B5%8F%E8%A7%88%E5%A4%B1%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      <content type="html"><![CDATA[<h4 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h4><p>2018国庆节后，发现自己的Hexo博客的busuanzi统计功能没有数字显示了，去<a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="noopener"><strong>不蒜子网站</strong></a>发现有重要提示，原来js的网址发生了变更。按照网站给出的方法更改后仍然不显示，经验证，<strong>还需要修改一处</strong>，就能恢复如初。总结如下。</p><h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><ul><li><p>Step1：打开\themes\next\layout_third-party\analytics\下的busuanzi-counter.swig文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">将 src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</span><br><span class="line">修改为 src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</span><br></pre></td></tr></table></figure></li><li><p>Step2：打开\themes\next\layout_partials\下的footer.swig文件</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">将 src=“https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js”</span><br><span class="line">修改为 src=“https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js”</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+      
       <categories>
-        <category>IT应用</category>
+          
+          <category> IT应用 </category>
+          
       </categories>
-      <tags>
-        <tag>不蒜子</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[从基本面量化角度看郑煤走向]]></title>
-    <url>%2F2018%2F10%2F19%2F%E4%BB%8E%E5%9F%BA%E6%9C%AC%E9%9D%A2%E9%87%8F%E5%8C%96%E8%A7%92%E5%BA%A6%E7%9C%8B%E9%83%91%E7%85%A4%E8%B5%B0%E5%90%91%2F</url>
-    <content type="text"><![CDATA[从宏观库存周期来看 库存周期一般呈现出三年左右的波动规律，上轮工业产品去库存周期从2012年开始，煤炭从2013年开始，直到2016年结束，与此同时，煤价也经历了痛苦的下跌阶段，在去库存的末期好转。目前处于增库存周期，煤价的反弹也较为显著，从当前数据来看，尚未进入去库存阶段，拐点尚未出现，也就是基于基本面的大级别煤炭空头信号尚未出现。从时间规律上来看，2019可能进入去库存周期。 中观量化指标来看从产业链位置来看，动力煤属于上游品种，且无关联外盘，金融属性不强，主要受供需驱动，依靠基本面建模解释力度较强。电厂库存可用天数和海运费能够反映出下游耗煤需求，而环渤海港口的库船比能够反映补库需求，再参考期现基差的统计特征等因素，根据相关系数来分配权重，笔者综合考虑以上指标，最终生成一个综合的基于基本面的多空量化指标，详见下图： 以Wind郑煤指数为期货跟踪标的，多空信号为区间1.6~-1.6的数字，以黑色柱状图表示，位于零以上发出多头信号，零以下空头信号，数字越大，代表对应方向的信号越强。从2013年郑煤上市以来至今的跟踪表现来看，吻合大级别行情的同时，短期波段行情也有不错的的胜率。最新的信号提示，郑煤有短期转弱的迹象，需要两到三天的指标确认。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 不蒜子 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>从基本面量化角度看郑煤走向</title>
+      <link href="/2018/10/19/%E4%BB%8E%E5%9F%BA%E6%9C%AC%E9%9D%A2%E9%87%8F%E5%8C%96%E8%A7%92%E5%BA%A6%E7%9C%8B%E9%83%91%E7%85%A4%E8%B5%B0%E5%90%91/"/>
+      <url>/2018/10/19/%E4%BB%8E%E5%9F%BA%E6%9C%AC%E9%9D%A2%E9%87%8F%E5%8C%96%E8%A7%92%E5%BA%A6%E7%9C%8B%E9%83%91%E7%85%A4%E8%B5%B0%E5%90%91/</url>
+      <content type="html"><![CDATA[<h4 id="从宏观库存周期来看"><a href="#从宏观库存周期来看" class="headerlink" title="从宏观库存周期来看"></a>从宏观库存周期来看</h4><div style="text-align:center"><br>    <img src="/img/zc1.png" alt=""><br></div><p>库存周期一般呈现出三年左右的波动规律，上轮工业产品去库存周期从2012年开始，煤炭从2013年开始，直到2016年结束，与此同时，煤价也经历了痛苦的下跌阶段，在去库存的末期好转。目前处于增库存周期，煤价的反弹也较为显著，从当前数据来看，尚未进入去库存阶段，拐点尚未出现，也就是基于基本面的大级别煤炭空头信号尚未出现。从时间规律上来看，2019可能进入去库存周期。</p><h4 id="中观量化指标来看"><a href="#中观量化指标来看" class="headerlink" title="中观量化指标来看"></a>中观量化指标来看</h4><p>从产业链位置来看，动力煤属于上游品种，且无关联外盘，金融属性不强，主要受供需驱动，依靠基本面建模解释力度较强。电厂库存可用天数和海运费能够反映出下游耗煤需求，而环渤海港口的库船比能够反映补库需求，再参考期现基差的统计特征等因素，根据相关系数来分配权重，笔者综合考虑以上指标，最终生成一个综合的基于基本面的多空量化指标，详见下图：</p><div style="text-align:center"><br>    <img src="/img/zc2.png" alt=""><br></div><p>以Wind郑煤指数为期货跟踪标的，多空信号为区间1.6~-1.6的数字，以黑色柱状图表示，位于零以上发出多头信号，零以下空头信号，数字越大，代表对应方向的信号越强。从2013年郑煤上市以来至今的跟踪表现来看，吻合大级别行情的同时，短期波段行情也有不错的的胜率。最新的信号提示，郑煤有短期转弱的迹象，需要两到三天的指标确认。</p><div style="text-align:center"><br>    <img src="/img/zc3.png" alt=""><br></div>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>基本面量化</tag>
-        <tag>郑煤</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[从行业ROE因子角度选股]]></title>
-    <url>%2F2018%2F10%2F10%2F%E4%BB%8E%E8%A1%8C%E4%B8%9AROE%E5%9B%A0%E5%AD%90%E8%A7%92%E5%BA%A6%E9%80%89%E8%82%A1%2F</url>
-    <content type="text"><![CDATA[股价是多因素变量，同时受到资金面、情绪面和基本面的多方位影响。在目前监管趋严、中美贸易摩擦风险长期存在、市场流动性偏紧的市场状况下，资金面和情绪面短期不乐观，股市增量资金不足、存量资金博弈，基本面当下更显重要性。ROE（净资产收益率） 作为基本面情况的有效反映，是价值投资关注的重要指标。本文主要从自上而下的角度去探讨ROE因子驱动不同行业股票的异同点。 巴菲特的黄金搭档、投资家、思想家芒格就就认为：企业的长期回报是向ROE靠拢。“从长期来看，一只股票的回报率与企业发展息息相关，如果一家企业40年来的盈利一直是资本的6%（即ROE6%），那40年后你的年均收益率不会和6%有什么区别，即使你当初买的是便宜货。如果该企业在20-30年的盈利都是资本的18%，即使当初出价高，其回报依然会让你满意。” ROE 与全部 A 股收盘价的走势具有较高的相关性2000 年起，ROE 的变化趋势就表现出与 A 股股价较强的相关性。二者高峰、低谷位以及中枢走向基本一致。除此之外，ROE 与股价之间还可能存在“时滞”效果。当投资者已经预期经营状况改善或者恶化时，股价通常提前进行压力释放。这与ROE公布时间滞后有关，但不影响ROE与A股收盘价高度相关的本质。由于 ROE 的实际值跟随季报公布，相较于报告期末已有 1 个月的滞后，故股价最终提前 1-3 个月完成 ROE 影响带来的变动。 ROE 与行业走势高度相关，但需要具体分析其次，我们从中观行业的角度来分析，因为行业的产业链位置、商业模式和当前所处的生命周期阶段不同，如果笼统进行比较，没有意义。 首先从产业链来看，可以划分为上游资源类、中游制造类、下游消费类和金融类。从行业的生命发展周期来看，又可以有四个发展阶段：幼稚期，成长期，成熟期，衰退期。 从商业模式的角度来看，社会主要的商业模式蕴含在杜邦公式中，即ROE=销售利润率×资产周转率×财务杠杆比率。围绕后面三个乘数，推演出三种具体的商业模式：即依靠销售利润率（低成本高价格）提高ROE的“微软模式”；依靠资产周转率提高ROE的“沃尔玛模式”；而依靠第三项“财务杠杆比率”提高ROE的方法，可称为“华尔街模式”。 综合以上分类标准，笔者根据中信一级行业划分，尝试将笔者关注的行业划分为四大类，分别进行比较分析。注意本文并未涵盖所有行业。 大类 行业 周期类 石油石化、煤炭、有色、钢铁、基础化工、建筑、建材、机械 传统消费类 轻工制造、汽车、商贸零售、餐饮旅游、家电、纺织服装、医药、食品饮料、农林牧渔 TMT 电子、通信、计算机、传媒 金融类 银行、非银、房地产 （一）周期类：钢铁、基础化工被低估 以上行业在中国通常处于成熟期，需求受宏观经济及产业政策影响较大，ROE特征表现为波动较大，不够稳定，具有一定的周期性。总体而言，剔除2008年金融危机影响，2003-2011处于上升期，其中2007和2010年是双顶。2012-2015处于下降期，其中煤炭、石油石化、钢铁、有色等上游资源类最为明显；2016至今处于反弹期，钢铁、煤炭、建材类上升较明显。综合来看，建筑行业弹性最小，有色、钢铁、煤炭弹性较大。对应的行业股票指数（采用流通股本加权平均收盘价）如下： 从股价上来看，2014年以前与ROE的对应关系较明显，2015年因为大盘整体溢价幅度较大产生短暂背离，随即2016年开始修正。从2017年截止ROE数据对应来看，钢铁、基础化工明显被低估。 （二）传统消费类：餐饮旅游与家电被低估，食品饮料已兑现 这里面其实可以细分为可选消费与必选消费。但总体而言相对周期股ROE都比较稳定，其中食品饮料类因为两高（销售利润率高和资产周转率高），ROE长期领跑消费类，而农林牧渔正好相反。这里面，弹性较大的有食品饮料、汽车、农业、家电，弹性较小的是医药、餐饮旅游和纺织服装。从当下来看，食品饮料、家电领先，而农业与商贸零售垫底。 传统消费类行业ROE与股价对应关系较好。截止2017年来看，餐饮旅游类和家电类相对有些低估，食品饮料略高估。 （三）TMT：电子细分行业相对被低估 从中国目前的经济发展阶段和行业生命周期来说，整体处于成长期，很多成长股潜伏其中，很多子行业存在较大想象空间，从商业模式上来看，销售利润率有增长预期，但多数属于资金及技术驱动型，财务杠杆比率较高的同时，企业层面持续稳定经营风险较大。资产周转率并不高，传媒和通信投资周期长，计算机和手机的消费周期比较长。 计算机行业2016年股价下滑，反映对ROE下滑预期，股价波动较ROE波动更为剧烈，这类行业股票选股应更为谨慎，应根据技术研发与消费周期适当考虑择时。 截止2017年来看电子行业相对低估。 （四）金融类：银行低估，房地产高估 金融板块是相对实体行业是一个特殊的存在，属于资金驱动型行业，具有典型的高资产周转率、高财务杠杆率的特征。从行业发展阶段来看，银行板块发展日趋成熟，销售利润率逐步下滑，而非银发展仍处于成长期。ROE表现看，银行业2012年开始走下坡路，房地产与银行业拐点一致，但总体依靠房价和行业集中度的上升而表现相对稳定。 从ROE和股价的对应关系来看，金融类是最不显著的一组。这可能跟投资者结构和市值大小有关。总体来看，非银板块弹性最大，跟ROE对应关系最好。截止2017年数据来看，银行板块相对低估，房地产相对高估。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 基本面量化 </tag>
+            
+            <tag> 郑煤 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>从行业ROE因子角度选股</title>
+      <link href="/2018/10/10/%E4%BB%8E%E8%A1%8C%E4%B8%9AROE%E5%9B%A0%E5%AD%90%E8%A7%92%E5%BA%A6%E9%80%89%E8%82%A1/"/>
+      <url>/2018/10/10/%E4%BB%8E%E8%A1%8C%E4%B8%9AROE%E5%9B%A0%E5%AD%90%E8%A7%92%E5%BA%A6%E9%80%89%E8%82%A1/</url>
+      <content type="html"><![CDATA[<p>股价是多因素变量，同时受到资金面、情绪面和基本面的多方位影响。在目前监管趋严、中美贸易摩擦风险长期存在、市场流动性偏紧的市场状况下，资金面和情绪面短期不乐观，股市增量资金不足、存量资金博弈，基本面当下更显重要性。ROE（净资产收益率） 作为基本面情况的有效反映，是价值投资关注的重要指标。本文主要从自上而下的角度去探讨ROE因子驱动不同行业股票的异同点。</p><p>巴菲特的黄金搭档、投资家、思想家芒格就就认为：企业的长期回报是向ROE靠拢。“从长期来看，一只股票的回报率与企业发展息息相关，如果一家企业40年来的盈利一直是资本的6%（即ROE6%），那40年后你的年均收益率不会和6%有什么区别，即使你当初买的是便宜货。如果该企业在20-30年的盈利都是资本的18%，即使当初出价高，其回报依然会让你满意。”</p><h4 id="ROE-与全部-A-股收盘价的走势具有较高的相关性"><a href="#ROE-与全部-A-股收盘价的走势具有较高的相关性" class="headerlink" title="ROE 与全部 A 股收盘价的走势具有较高的相关性"></a>ROE 与全部 A 股收盘价的走势具有较高的相关性</h4><p>2000 年起，ROE 的变化趋势就表现出与 A 股股价较强的相关性。二者高峰、低谷位以及中枢走向基本一致。除此之外，ROE 与股价之间还可能存在“时滞”效果。当投资者已经预期经营状况改善或者恶化时，股价通常提前进行压力释放。这与ROE公布时间滞后有关，但不影响ROE与A股收盘价高度相关的本质。由于 ROE 的实际值跟随季报公布，相较于报告期末已有 1 个月的滞后，故股价最终提前 1-3 个月完成 ROE 影响带来的变动。</p><div style="text-align:center"><br>    <img src="/img/roe0.png" alt=""><br></div><h4 id="ROE-与行业走势高度相关，但需要具体分析"><a href="#ROE-与行业走势高度相关，但需要具体分析" class="headerlink" title="ROE 与行业走势高度相关，但需要具体分析"></a>ROE 与行业走势高度相关，但需要具体分析</h4><p>其次，我们从中观行业的角度来分析，因为行业的产业链位置、商业模式和当前所处的生命周期阶段不同，如果笼统进行比较，没有意义。</p><p>首先从产业链来看，可以划分为上游资源类、中游制造类、下游消费类和金融类。从行业的生命发展周期来看，又可以有四个发展阶段：幼稚期，成长期，成熟期，衰退期。</p><p>从商业模式的角度来看，社会主要的商业模式蕴含在杜邦公式中，即ROE=销售利润率×资产周转率×财务杠杆比率。围绕后面三个乘数，推演出三种具体的商业模式：即依靠销售利润率（低成本高价格）提高ROE的“微软模式”；依靠资产周转率提高ROE的“沃尔玛模式”；而依靠第三项“财务杠杆比率”提高ROE的方法，可称为“华尔街模式”。</p><p>综合以上分类标准，笔者根据中信一级行业划分，尝试将笔者关注的行业划分为四大类，分别进行比较分析。注意本文并未涵盖所有行业。</p><table><thead><tr><th>大类</th><th>行业</th></tr></thead><tbody><tr><td>周期类</td><td>石油石化、煤炭、有色、钢铁、基础化工、建筑、建材、机械</td></tr><tr><td>传统消费类</td><td>轻工制造、汽车、商贸零售、餐饮旅游、家电、纺织服装、医药、食品饮料、农林牧渔</td></tr><tr><td>TMT</td><td>电子、通信、计算机、传媒</td></tr><tr><td>金融类</td><td>银行、非银、房地产</td></tr></tbody></table><h4 id="（一）周期类：钢铁、基础化工被低估"><a href="#（一）周期类：钢铁、基础化工被低估" class="headerlink" title="（一）周期类：钢铁、基础化工被低估"></a>（一）周期类：钢铁、基础化工被低估</h4><div style="text-align:center"><br>    <img src="/img/roe1.png" alt=""><br></div><p>以上行业在中国通常处于成熟期，需求受宏观经济及产业政策影响较大，ROE特征表现为波动较大，不够稳定，具有一定的周期性。总体而言，剔除2008年金融危机影响，2003-2011处于上升期，其中2007和2010年是双顶。2012-2015处于下降期，其中煤炭、石油石化、钢铁、有色等上游资源类最为明显；2016至今处于反弹期，钢铁、煤炭、建材类上升较明显。综合来看，建筑行业弹性最小，有色、钢铁、煤炭弹性较大。对应的行业股票指数（采用流通股本加权平均收盘价）如下：</p><div style="text-align:center"><br>    <img src="/img/roe2.png" alt=""><br></div><p>从股价上来看，2014年以前与ROE的对应关系较明显，2015年因为大盘整体溢价幅度较大产生短暂背离，随即2016年开始修正。从2017年截止ROE数据对应来看，钢铁、基础化工明显被低估。</p><h4 id="（二）传统消费类：餐饮旅游与家电被低估，食品饮料已兑现"><a href="#（二）传统消费类：餐饮旅游与家电被低估，食品饮料已兑现" class="headerlink" title="（二）传统消费类：餐饮旅游与家电被低估，食品饮料已兑现"></a>（二）传统消费类：餐饮旅游与家电被低估，食品饮料已兑现</h4><div style="text-align:center"><br>    <img src="/img/roe3.png" alt=""><br></div><p>这里面其实可以细分为可选消费与必选消费。但总体而言相对周期股ROE都比较稳定，其中食品饮料类因为两高（销售利润率高和资产周转率高），ROE长期领跑消费类，而农林牧渔正好相反。这里面，弹性较大的有食品饮料、汽车、农业、家电，弹性较小的是医药、餐饮旅游和纺织服装。从当下来看，食品饮料、家电领先，而农业与商贸零售垫底。</p><div style="text-align:center"><br>    <img src="/img/roe4.png" alt=""><br></div><p>传统消费类行业ROE与股价对应关系较好。截止2017年来看，餐饮旅游类和家电类相对有些低估，食品饮料略高估。</p><h4 id="（三）TMT：电子细分行业相对被低估"><a href="#（三）TMT：电子细分行业相对被低估" class="headerlink" title="（三）TMT：电子细分行业相对被低估"></a>（三）TMT：电子细分行业相对被低估</h4><div style="text-align:center"><br>    <img src="/img/roe5.png" alt=""><br></div><p>从中国目前的经济发展阶段和行业生命周期来说，整体处于成长期，很多成长股潜伏其中，很多子行业存在较大想象空间，从商业模式上来看，销售利润率有增长预期，但多数属于资金及技术驱动型，财务杠杆比率较高的同时，企业层面持续稳定经营风险较大。资产周转率并不高，传媒和通信投资周期长，计算机和手机的消费周期比较长。</p><div style="text-align:center"><br>    <img src="/img/roe6.png" alt=""><br></div><p>计算机行业2016年股价下滑，反映对ROE下滑预期，股价波动较ROE波动更为剧烈，这类行业股票选股应更为谨慎，应根据技术研发与消费周期适当考虑择时。 截止2017年来看电子行业相对低估。</p><h4 id="（四）金融类：银行低估，房地产高估"><a href="#（四）金融类：银行低估，房地产高估" class="headerlink" title="（四）金融类：银行低估，房地产高估"></a>（四）金融类：银行低估，房地产高估</h4><div style="text-align:center"><br>    <img src="/img/roe7.png" alt=""><br></div><p>金融板块是相对实体行业是一个特殊的存在，属于资金驱动型行业，具有典型的高资产周转率、高财务杠杆率的特征。从行业发展阶段来看，银行板块发展日趋成熟，销售利润率逐步下滑，而非银发展仍处于成长期。ROE表现看，银行业2012年开始走下坡路，房地产与银行业拐点一致，但总体依靠房价和行业集中度的上升而表现相对稳定。</p><div style="text-align:center"><br>    <img src="/img/roe8.png" alt=""><br></div><p>从ROE和股价的对应关系来看，金融类是最不显著的一组。这可能跟投资者结构和市值大小有关。总体来看，非银板块弹性最大，跟ROE对应关系最好。截止2017年数据来看，银行板块相对低估，房地产相对高估。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>股票</tag>
-        <tag>ROE</tag>
-        <tag>行业</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[股票数据分析举例]]></title>
-    <url>%2F2018%2F09%2F29%2Fpython%E8%82%A1%E7%A5%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%BE%E4%BE%8B%2F</url>
-    <content type="text"><![CDATA[众所周知，基于出众的开发效率和丰富的开源工具包，python在数据分析和人工智能领域炙手可热，被众多量化交易平台竞相采用。本文略举几例，旨在抛砖引玉。 K线形态选股示例运行环境：万矿量化平台 目的：从沪深300中选取最近三个月满足 “十字晨星” 形态的股票： 12345678910111213141516171819from WindCharts import *from pandas import DataFrame from WindPy import *import talib as tafrom tqdm import tqdmw.start(show_welcome=False)print('开始在沪深300中选取满足 “十字晨星” 形态的股票，请稍等...')start_date, end_date = "2018-07-01" , "2018-09-28"target_stock = []list_stock = w.wset("sectorconstituent", "date="+start_date+";windcode=000300.SH").Data[1] #当时的沪深300股票for code in list_stock: data = w.wsd(code, "open,high,low,close,volume", start_date, end_date) data = pd.DataFrame(data.Data, columns=data.Times, index=data.Fields).T open, high, low, close = np.array(data['OPEN']), np.array(data['HIGH']),np.array(data['LOW']),np.array(data['CLOSE']) CDLMORNINGDOJISTAR = ta.CDLMORNINGDOJISTAR(open, high, low, close, penetration=0) #十字晨星 if len(np.where(CDLMORNINGDOJISTAR!=0)[0])&gt;0: target_stock.append(code)print(target_stock) 输出结果： 123&gt; 开始在沪深300中选取满足 “十字晨星” 形态的股票，请稍等...&gt; [&apos;000425.SZ&apos;, &apos;000768.SZ&apos;, &apos;000983.SZ&apos;, &apos;002153.SZ&apos;, &apos;002594.SZ&apos;, &apos;002625.SZ&apos;, &apos;300033.SZ&apos;, &apos;600066.SH&apos;, &apos;600208.SH&apos;, &apos;600271.SH&apos;, &apos;600498.SH&apos;, &apos;600588.SH&apos;, &apos;600958.SH&apos;, &apos;601186.SH&apos;, &apos;601607.SH&apos;, &apos;601718.SH&apos;, &apos;601939.SH&apos;]&gt; 获取某日涨停股运行环境：万矿量化平台 目的：获取某日涨停个股列表 12345678910111213141516from WindPy import *from datetime import *import pandas as pdw.start() # 启动Wind APIdate='2018-09-28' #input("请输入研究日期：") #日期格式请采用规范格式如2011-01-01，只支持交易日code=w.wset("sectorconstituent","date="+date+";sectorid=a001010100000000")code=pd.DataFrame(code.Data).Tchange=w.wss(list(code[1]), "sec_name,maxupordown","tradeDate="+date+";cycle=D")change=pd.DataFrame(change.Data).Tresult=pd.DataFrame(columns=['股票代码','股票名称'])print ('涨停的股票有：')for i in range(len(change[0])): if (change[1][i]==1): result.loc[len(result)]=[code[1][i],code[2][i]] i=i+1 result 输出结果： 龙虎榜个股上榜统计运行环境：jupyter notebook 目的：运用tushare获取龙虎榜相关信息，并进行排序 1234# 获取近5、10、30、60日个股上榜统计数据,包括上榜次数、累积购买额、累积卖出额、净额、买入席位数和卖出席位数。import tushare as tsdf = ts.cap_tops(days=10) # count上榜次数，bamount累积购买额(万)，samount累积卖出额(万)，net净额(万)df.sort_values(by=['count','net'],ascending=False) # 对df按照上榜次数排序后如有相同的再按照净额排序 输出结果：]]></content>
+      
+      
+        <tags>
+            
+            <tag> 股票 </tag>
+            
+            <tag> ROE </tag>
+            
+            <tag> 行业 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>股票数据分析举例</title>
+      <link href="/2018/09/29/python%E8%82%A1%E7%A5%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%BE%E4%BE%8B/"/>
+      <url>/2018/09/29/python%E8%82%A1%E7%A5%A8%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%BE%E4%BE%8B/</url>
+      <content type="html"><![CDATA[<p>众所周知，基于出众的开发效率和丰富的开源工具包，python在数据分析和人工智能领域炙手可热，被众多量化交易平台竞相采用。本文略举几例，旨在抛砖引玉。</p><h3 id="K线形态选股示例"><a href="#K线形态选股示例" class="headerlink" title="K线形态选股示例"></a>K线形态选股示例</h3><p>运行环境：万矿量化平台</p><p>目的：从沪深300中选取最近三个月满足 “十字晨星” 形态的股票：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> WindCharts <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">from</span> pandas <span class="keyword">import</span> DataFrame </span><br><span class="line"><span class="keyword">from</span> WindPy <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">import</span> talib <span class="keyword">as</span> ta</span><br><span class="line"><span class="keyword">from</span> tqdm <span class="keyword">import</span> tqdm</span><br><span class="line"></span><br><span class="line">w.start(show_welcome=<span class="keyword">False</span>)</span><br><span class="line">print(<span class="string">'开始在沪深300中选取满足 “十字晨星” 形态的股票，请稍等...'</span>)</span><br><span class="line">start_date, end_date = <span class="string">"2018-07-01"</span> , <span class="string">"2018-09-28"</span></span><br><span class="line">target_stock = []</span><br><span class="line">list_stock = w.wset(<span class="string">"sectorconstituent"</span>, <span class="string">"date="</span>+start_date+<span class="string">";windcode=000300.SH"</span>).Data[<span class="number">1</span>]   <span class="comment">#当时的沪深300股票</span></span><br><span class="line"><span class="keyword">for</span> code <span class="keyword">in</span> list_stock:</span><br><span class="line">    data = w.wsd(code, <span class="string">"open,high,low,close,volume"</span>, start_date, end_date)     </span><br><span class="line">    data = pd.DataFrame(data.Data, columns=data.Times, index=data.Fields).T</span><br><span class="line">    open, high, low, close  = np.array(data[<span class="string">'OPEN'</span>]), np.array(data[<span class="string">'HIGH'</span>]),np.array(data[<span class="string">'LOW'</span>]),np.array(data[<span class="string">'CLOSE'</span>])</span><br><span class="line">    CDLMORNINGDOJISTAR = ta.CDLMORNINGDOJISTAR(open, high, low, close, penetration=<span class="number">0</span>)              <span class="comment">#十字晨星</span></span><br><span class="line">    <span class="keyword">if</span> len(np.where(CDLMORNINGDOJISTAR!=<span class="number">0</span>)[<span class="number">0</span>])&gt;<span class="number">0</span>:</span><br><span class="line">        target_stock.append(code)</span><br><span class="line">print(target_stock)</span><br></pre></td></tr></table></figure><p>输出结果：</p><blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 开始在沪深300中选取满足 “十字晨星” 形态的股票，请稍等...</span><br><span class="line">&gt; [&apos;000425.SZ&apos;, &apos;000768.SZ&apos;, &apos;000983.SZ&apos;, &apos;002153.SZ&apos;, &apos;002594.SZ&apos;, &apos;002625.SZ&apos;, &apos;300033.SZ&apos;, &apos;600066.SH&apos;, &apos;600208.SH&apos;, &apos;600271.SH&apos;, &apos;600498.SH&apos;, &apos;600588.SH&apos;, &apos;600958.SH&apos;, &apos;601186.SH&apos;, &apos;601607.SH&apos;, &apos;601718.SH&apos;, &apos;601939.SH&apos;]</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><h3 id="获取某日涨停股"><a href="#获取某日涨停股" class="headerlink" title="获取某日涨停股"></a>获取某日涨停股</h3><p>运行环境：万矿量化平台</p><p>目的：获取某日涨停个股列表</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> WindPy <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">w.start() <span class="comment"># 启动Wind API</span></span><br><span class="line">date=<span class="string">'2018-09-28'</span> <span class="comment">#input("请输入研究日期：")  #日期格式请采用规范格式如2011-01-01，只支持交易日</span></span><br><span class="line">code=w.wset(<span class="string">"sectorconstituent"</span>,<span class="string">"date="</span>+date+<span class="string">";sectorid=a001010100000000"</span>)</span><br><span class="line">code=pd.DataFrame(code.Data).T</span><br><span class="line">change=w.wss(list(code[<span class="number">1</span>]), <span class="string">"sec_name,maxupordown"</span>,<span class="string">"tradeDate="</span>+date+<span class="string">";cycle=D"</span>)</span><br><span class="line">change=pd.DataFrame(change.Data).T</span><br><span class="line">result=pd.DataFrame(columns=[<span class="string">'股票代码'</span>,<span class="string">'股票名称'</span>])</span><br><span class="line"><span class="keyword">print</span> (<span class="string">'涨停的股票有：'</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(change[<span class="number">0</span>])):</span><br><span class="line">    <span class="keyword">if</span> (change[<span class="number">1</span>][i]==<span class="number">1</span>):</span><br><span class="line">        result.loc[len(result)]=[code[<span class="number">1</span>][i],code[<span class="number">2</span>][i]]</span><br><span class="line">        i=i+<span class="number">1</span> </span><br><span class="line">result</span><br></pre></td></tr></table></figure><p>输出结果：</p><div style="text-align:center"><br>    <img src="/img/1538231048306.png" alt=""><br></div><h3 id="龙虎榜个股上榜统计"><a href="#龙虎榜个股上榜统计" class="headerlink" title="龙虎榜个股上榜统计"></a>龙虎榜个股上榜统计</h3><p>运行环境：jupyter notebook</p><p>目的：运用tushare获取龙虎榜相关信息，并进行排序</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 获取近5、10、30、60日个股上榜统计数据,包括上榜次数、累积购买额、累积卖出额、净额、买入席位数和卖出席位数。</span></span><br><span class="line"><span class="keyword">import</span> tushare <span class="keyword">as</span> ts</span><br><span class="line">df = ts.cap_tops(days=<span class="number">10</span>) <span class="comment"># count上榜次数，bamount累积购买额(万)，samount累积卖出额(万)，net净额(万)</span></span><br><span class="line">df.sort_values(by=[<span class="string">'count'</span>,<span class="string">'net'</span>],ascending=<span class="keyword">False</span>) <span class="comment"># 对df按照上榜次数排序后如有相同的再按照净额排序</span></span><br></pre></td></tr></table></figure><p>输出结果：</p><div style="text-align:center"><br>    <img src="/img/1538232304092.png" alt=""><br></div>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>数据分析</tag>
-        <tag>股票</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[从去产能政策演变看煤炭商品与股票未来]]></title>
-    <url>%2F2018%2F09%2F14%2F%E4%BB%8E%E5%8E%BB%E4%BA%A7%E8%83%BD%E6%94%BF%E7%AD%96%E6%BC%94%E5%8F%98%E7%9C%8B%E7%85%A4%E7%82%AD%E5%95%86%E5%93%81%E4%B8%8E%E8%82%A1%E7%A5%A8%E6%9C%AA%E6%9D%A5%2F</url>
-    <content type="text"><![CDATA[2018年大盘行情已经走过大半，虽然低迷行情仍在持续，但底部渐行渐近，有必要加紧股票行业研究，为未来行情启动布局谋篇。本文从煤炭行业入手，探讨未来去产能政策对煤炭商品和煤炭股票板块的影响，以期抛砖引玉。 08年金融危机发生后，2009年中国推出四万亿投资刺激计划，大规模固定资产投资开启了煤炭与建材产业链的新一轮产能扩张周期，2013-2015年煤炭产能严重过剩，产业利润率和产能利用率持续下降，企业杠杆率飙升。淘汰落后产能虽然已进行了多年，但产能过剩局面并未扭转，反而不减反增，陷入“一边去产能、一边扩产量”的怪圈，产能利用率持续下滑。根据煤炭工业协会数据，2015年煤炭产能利用率仅为65%，亏损煤企占比超过了90%，协会统计的90家大型煤企，产量在行业占比为69.4%，利润同比降幅为90.7%。2016年开始，政府主导供给侧改革，推动煤炭产业发生了深刻的改变，随着供需结构的趋紧和企业集中度的上升，煤炭现货价格和企业利润均出现了回升势头，带动了相关商品和股票的上涨。 去产能政策演变：刚性趋向弹性 2015年底，中央经济工作会议提出了“三去一降一补”的年度任务，其中煤炭作为去产能的主要抓手之一。 2016年2月5日，在2016年煤炭去产能2.5亿吨目标的背景下，国务院发布《关于煤炭行业化解过剩产能实现脱困发展的意见》，意见提出，从2016年开始，按全年作业时间不超过276个工作日重新确定煤矿产能，原则上法定节假日和周日不安排生产。 2016年11月，由于煤炭供不应求，在去产能过程中煤价出现了疯涨。考虑到迎峰度冬期间煤炭需求较大，发改委要求全国所有具备安全生产条件的合法合规煤矿，在采暖季结束前均可按照330个工作日生产。 2017年5月开始，国家二类港口（省级人民政府批准开放并管理的港口）进口煤的通关时间由一周延长至三到四周；7月1日起，国家二类港口禁止进口煤炭船舶靠泊卸货。海关总署发布的数据显示，2017年7月-11月，煤炭进口量11514万吨，比去年同期减少565万吨。2017年12月开始，逐步放松对煤炭进口的限制措施。 2018年4月重启对进口煤炭的限制措施，6月逐步放开。 2016年开始，用三年到五年的时间，退出产能5亿吨左右的目标已实现。2016年和2017年两年累计化解过剩煤炭产能约5.4亿吨。2018年煤炭去产能目标是1.5亿吨，如果2018年这一目标能够实现，则三年化解过剩产能约7亿吨，距离“十三五”规划提出的去产能8亿吨的目标还有1亿多吨的差距。 《政府工作报告》提出，2018年要退出煤炭产能1.5亿吨左右。2018年1-7月，实际退出煤炭产能8000万吨左右，完成全年任务1.5亿吨的53%。完成总目标任务的77%。 随着政府对煤炭行业的认知更加深入，以及去产能目标任务已完成大半，未来去产能政策更加科学而富有弹性，对供需结构的冲击边际减弱。 供需继续偏紧，价格高位波动2016年启动煤炭去产能之前，我国拥有的煤炭总产能超过60亿吨。截至2017年底，煤炭总产能约55亿吨。其中证照齐全的合法生产煤矿和进入试运转状态的煤矿煤炭总产能合计不足37亿吨。按照95%的商品煤比率计算，煤炭实际供应能力也就35亿多吨，对应全年38亿吨至39亿吨的煤炭需求总量来说，如果没有进口煤的补充，国内煤炭供应无疑会出现明显的供不应求。 时间 产量 进口 出口 净进口 铁路发运量 产量同比 净进口同比 铁运同比 2015 37.5 2.04 0.053 1.987 20 -3.30% -30.40% -12.60% 2016 33.6 2.6 0.087 2.5 19 -10.40% 25.82% -5.00% 2017 35.2 2.71 0.081 2.63 21.55 4.76% 5.20% 13.42% 2018（1-7月） 19.78 1.75 0.027 1.723 13.7 3.40% 15.00% 10.40% 受2016年2-10月实行煤炭生产276个工作日制度的限制，2016年总产量受到较大影响，同比下滑，同期进口大增，反映国内供不应求的局面。2017年产量出现恢复性增长，但进口受到政策限制，增速减缓。2018年前7个月数据来看，产量增速与去年相当，进口增速则回到两位数。而总体而言，煤炭供需面仍然维持紧平衡。 截至目前，煤炭去产能任务还有大约23%没有完成，因为进口煤大多是劣质低价煤，无论是从环保角度还是保障内贸煤的需求而言，每年进口煤的阶段性限制都是必要的。另外，我们注意到2017年至今的铁运同比增速较高，基于2017-2020年达成环保目标的需要，取暖季对煤炭公路运输的限制会从流通环节对供应形成冲击。因此，供需结构仍然能支撑煤炭价格处于偏强区间，但去产能政策对供应量的冲击更加具有结构性和季节性，价格总体波动率会收窄。 2016-2017煤炭股票上涨主要归因于行业，未来将两极分化 时间 煤企主营收入（万亿） 同比 利润（亿） 同比 2015 2.49 -14.80% 440.8 -65% 2016 2.3 -1.60% 1090.9 223.60% 2017 2.54 25.90% 2959.3 290.50% 2018（1-7月） 1.37 5.90% 1807.7 18.00% 从煤企经营数据来看，2016年是拐点，上涨主要源于煤价的上升，由于2017年基数较高，2018年1-7月主营收和利润同比增速减缓，叠加贝塔下行风险，股价走出下行趋势。基于上述对未来煤价及政策的判断，未来驱动煤炭行业股票的阿尔法因素更多将来自于集中度的上升和兼并重组，头部企业将更受益。可以根据电煤的需求和环保的季节性进行择时。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 数据分析 </tag>
+            
+            <tag> 股票 </tag>
+            
+            <tag> python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>从去产能政策演变看煤炭商品与股票未来</title>
+      <link href="/2018/09/14/%E4%BB%8E%E5%8E%BB%E4%BA%A7%E8%83%BD%E6%94%BF%E7%AD%96%E6%BC%94%E5%8F%98%E7%9C%8B%E7%85%A4%E7%82%AD%E5%95%86%E5%93%81%E4%B8%8E%E8%82%A1%E7%A5%A8%E6%9C%AA%E6%9D%A5/"/>
+      <url>/2018/09/14/%E4%BB%8E%E5%8E%BB%E4%BA%A7%E8%83%BD%E6%94%BF%E7%AD%96%E6%BC%94%E5%8F%98%E7%9C%8B%E7%85%A4%E7%82%AD%E5%95%86%E5%93%81%E4%B8%8E%E8%82%A1%E7%A5%A8%E6%9C%AA%E6%9D%A5/</url>
+      <content type="html"><![CDATA[<p>2018年大盘行情已经走过大半，虽然低迷行情仍在持续，但底部渐行渐近，有必要加紧股票行业研究，为未来行情启动布局谋篇。本文从煤炭行业入手，探讨未来去产能政策对煤炭商品和煤炭股票板块的影响，以期抛砖引玉。</p><div style="text-align:center"><br>    <img src="/img/qcn_1.png" alt=""><br></div><p>08年金融危机发生后，2009年中国推出四万亿投资刺激计划，大规模固定资产投资开启了煤炭与建材产业链的新一轮产能扩张周期，2013-2015年煤炭产能严重过剩，产业利润率和产能利用率持续下降，企业杠杆率飙升。淘汰落后产能虽然已进行了多年，但产能过剩局面并未扭转，反而不减反增，陷入“一边去产能、一边扩产量”的怪圈，产能利用率持续下滑。根据煤炭工业协会数据，2015年煤炭产能利用率仅为65%，亏损煤企占比超过了90%，协会统计的90家大型煤企，产量在行业占比为69.4%，利润同比降幅为90.7%。2016年开始，政府主导供给侧改革，推动煤炭产业发生了深刻的改变，随着供需结构的趋紧和企业集中度的上升，煤炭现货价格和企业利润均出现了回升势头，带动了相关商品和股票的上涨。</p><h4 id="去产能政策演变：刚性趋向弹性"><a href="#去产能政策演变：刚性趋向弹性" class="headerlink" title="去产能政策演变：刚性趋向弹性"></a>去产能政策演变：刚性趋向弹性</h4><div style="text-align:center"><br>    <img src="/img/qcn_2.png" alt=""><br></div><ul><li>2015年底，中央经济工作会议提出了“三去一降一补”的年度任务，其中煤炭作为去产能的主要抓手之一。</li><li><p>2016年2月5日，在2016年煤炭去产能2.5亿吨目标的背景下，国务院发布《关于煤炭行业化解过剩产能实现脱困发展的意见》，意见提出，从2016年开始，按全年作业时间不超过276个工作日重新确定煤矿产能，原则上法定节假日和周日不安排生产。</p></li><li><p>2016年11月，由于煤炭供不应求，在去产能过程中煤价出现了疯涨。考虑到迎峰度冬期间煤炭需求较大，发改委要求全国所有具备安全生产条件的合法合规煤矿，在采暖季结束前均可按照330个工作日生产。</p></li><li>2017年5月开始，国家二类港口（省级人民政府批准开放并管理的港口）进口煤的通关时间由一周延长至三到四周；7月1日起，国家二类港口禁止进口煤炭船舶靠泊卸货。海关总署发布的数据显示，2017年7月-11月，煤炭进口量11514万吨，比去年同期减少565万吨。2017年12月开始，逐步放松对煤炭进口的限制措施。</li><li>2018年4月重启对进口煤炭的限制措施，6月逐步放开。</li></ul><p>2016年开始，用三年到五年的时间，退出产能5亿吨左右的目标已实现。2016年和2017年两年累计化解过剩煤炭产能约5.4亿吨。2018年煤炭去产能目标是1.5亿吨，如果2018年这一目标能够实现，则三年化解过剩产能约7亿吨，距离“十三五”规划提出的去产能8亿吨的目标还有1亿多吨的差距。</p><p>《政府工作报告》提出，2018年要退出煤炭产能1.5亿吨左右。2018年1-7月，实际退出煤炭产能8000万吨左右，完成全年任务1.5亿吨的53%。完成总目标任务的77%。</p><p><strong>随着政府对煤炭行业的认知更加深入，以及去产能目标任务已完成大半，未来去产能政策更加科学而富有弹性，对供需结构的冲击边际减弱。</strong></p><h4 id="供需继续偏紧，价格高位波动"><a href="#供需继续偏紧，价格高位波动" class="headerlink" title="供需继续偏紧，价格高位波动"></a>供需继续偏紧，价格高位波动</h4><p>2016年启动煤炭去产能之前，我国拥有的煤炭总产能超过60亿吨。截至2017年底，煤炭总产能约55亿吨。其中证照齐全的合法生产煤矿和进入试运转状态的煤矿煤炭总产能合计不足37亿吨。按照95%的商品煤比率计算，煤炭实际供应能力也就35亿多吨，对应全年38亿吨至39亿吨的煤炭需求总量来说，如果没有进口煤的补充，国内煤炭供应无疑会出现明显的供不应求。</p><table><thead><tr><th>时间</th><th>产量</th><th>进口</th><th>出口</th><th>净进口</th><th>铁路发运量</th><th>产量同比</th><th>净进口同比</th><th>铁运同比</th></tr></thead><tbody><tr><td>2015</td><td>37.5</td><td>2.04</td><td>0.053</td><td>1.987</td><td>20</td><td>-3.30%</td><td>-30.40%</td><td>-12.60%</td></tr><tr><td>2016</td><td>33.6</td><td>2.6</td><td>0.087</td><td>2.5</td><td>19</td><td>-10.40%</td><td>25.82%</td><td>-5.00%</td></tr><tr><td>2017</td><td>35.2</td><td>2.71</td><td>0.081</td><td>2.63</td><td>21.55</td><td>4.76%</td><td>5.20%</td><td>13.42%</td></tr><tr><td>2018（1-7月）</td><td>19.78</td><td>1.75</td><td>0.027</td><td>1.723</td><td>13.7</td><td>3.40%</td><td>15.00%</td><td>10.40%</td></tr></tbody></table><p>受2016年2-10月实行煤炭生产276个工作日制度的限制，2016年总产量受到较大影响，同比下滑，同期进口大增，反映国内供不应求的局面。2017年产量出现恢复性增长，但进口受到政策限制，增速减缓。2018年前7个月数据来看，产量增速与去年相当，进口增速则回到两位数。而总体而言，煤炭供需面仍然维持紧平衡。</p><p>截至目前，煤炭去产能任务还有大约23%没有完成，因为进口煤大多是劣质低价煤，无论是从环保角度还是保障内贸煤的需求而言，每年进口煤的阶段性限制都是必要的。另外，我们注意到2017年至今的铁运同比增速较高，基于2017-2020年达成环保目标的需要，取暖季对煤炭公路运输的限制会从流通环节对供应形成冲击。因此，供需结构仍然能支撑煤炭价格处于偏强区间，但去产能政策对供应量的冲击更加具有结构性和季节性，价格总体波动率会收窄。</p><h4 id="2016-2017煤炭股票上涨主要归因于行业，未来将两极分化"><a href="#2016-2017煤炭股票上涨主要归因于行业，未来将两极分化" class="headerlink" title="2016-2017煤炭股票上涨主要归因于行业，未来将两极分化"></a>2016-2017煤炭股票上涨主要归因于行业，未来将两极分化</h4><table><thead><tr><th>时间</th><th>煤企主营收入（万亿）</th><th>同比</th><th>利润（亿）</th><th>同比</th></tr></thead><tbody><tr><td>2015</td><td>2.49</td><td>-14.80%</td><td>440.8</td><td>-65%</td></tr><tr><td>2016</td><td>2.3</td><td>-1.60%</td><td>1090.9</td><td>223.60%</td></tr><tr><td>2017</td><td>2.54</td><td>25.90%</td><td>2959.3</td><td>290.50%</td></tr><tr><td>2018（1-7月）</td><td>1.37</td><td>5.90%</td><td>1807.7</td><td>18.00%</td></tr></tbody></table><p>从煤企经营数据来看，2016年是拐点，上涨主要源于煤价的上升，由于2017年基数较高，2018年1-7月主营收和利润同比增速减缓，叠加贝塔下行风险，股价走出下行趋势。基于上述对未来煤价及政策的判断，未来驱动煤炭行业股票的阿尔法因素更多将来自于集中度的上升和兼并重组，头部企业将更受益。可以根据电煤的需求和环保的季节性进行择时。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>去产能</tag>
-        <tag>煤炭</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[当前宏观环境下的A股板块轮动走向]]></title>
-    <url>%2F2018%2F09%2F07%2FA%E8%82%A1%E6%9D%BF%E5%9D%97%E8%BD%AE%E5%8A%A8%2F</url>
-    <content type="text"><![CDATA[本文按照大盘趋势变化总结了2005-2017年的板块行情轮动情况，探究中观轮动的背后逻辑。国内外贸易、货币、汇率、产业政策的变化、投资者结构的变化等都对A股市造成影响。当前处于熊市无疑，未来哪些板块会脱颖而出，这是个值得思考的问题。在工农业供给侧改革、金融去杠杆与投资拉动内需的背景下，结合此前轮动情况，预计周期股中的医药、农林牧渔、钢铁、精细化工、科技国产替代领域会有较好的表现。 分板块轮动概览（中信一级行业分类） 趋势 时间 前三板块 后三板块 备注 牛 2005.6.6-2007.10.16 非银金融(16.53)、有色(13.95)、房地产(7.92) 电子元器件(2.39)、计算机(3.12)、通信(3.54) 投资与出口双轮驱动 熊 2007.10.17-2008.10.27 医药(0.45)基础化工(0.43)、建筑(0.42) 有色(0.15)、煤炭(0.24)、钢铁(0.25) 次贷危机引发全球金融危机 牛 2008.10.28-2009.8.3 有色(3.72)、煤炭(3.17)、汽车(2.84) 交运(1.77)、基础化工(1.8)、建筑(1.87) 四万亿投资驱动 结构熊 2009.8.4-2014.6.30 电子元器件(2.11)传媒(1.9)、计算机(1.78) 煤炭(0.31)、钢铁(0.35)、有色(0.5) 传统部门产能过剩、互联网经济兴起 牛 2014.7.1-2015.6.12 计算机(4.38)、建筑(4.07)、纺织服装(3.84) 银行(2.09)、石油石化(2.2)、食品饮料(2.22) 货币宽松、房地产低迷 熊 2015.6.15-2016.2.29 银行(0.76)、食品饮料(0.58)、餐饮旅游(0.58) 钢铁(0.35)、传媒(0.4)、计算机(0.4) 泡沫破灭 结构牛 2016.3.1-2018.1.26 家电(2.25)、食品饮料(2.23)、银行(1.56) 传媒(0.79)、计算机(0.89)、国防军工(0.92) 供给侧改革、国企改革 熊 2018.1.29- 餐饮旅游(0.93)、计算机(0.91)、医药(0.9) 综合(0.62)、房地产(0.66)、有色(0.66) 供给侧改革、贸易战 附：分阶段板块走势图（净值）2005.6.6-2007.10.16 2007.10.17-2008.10.27 2008.10.28-2009.8.3 2009.8.4-2014.6.30 2014.7.1-2015.6.12 2015.6.15-2016.2.29 2016.3.1-2018.1.26 2018.1.29-2018.9.7]]></content>
+      
+      
+        <tags>
+            
+            <tag> 去产能 </tag>
+            
+            <tag> 煤炭 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>当前宏观环境下的A股板块轮动走向</title>
+      <link href="/2018/09/07/A%E8%82%A1%E6%9D%BF%E5%9D%97%E8%BD%AE%E5%8A%A8/"/>
+      <url>/2018/09/07/A%E8%82%A1%E6%9D%BF%E5%9D%97%E8%BD%AE%E5%8A%A8/</url>
+      <content type="html"><![CDATA[<p>本文按照大盘趋势变化总结了2005-2017年的板块行情轮动情况，探究中观轮动的背后逻辑。国内外贸易、货币、汇率、产业政策的变化、投资者结构的变化等都对A股市造成影响。当前处于熊市无疑，未来哪些板块会脱颖而出，这是个值得思考的问题。在工农业供给侧改革、金融去杠杆与投资拉动内需的背景下，结合此前轮动情况，预计周期股中的医药、农林牧渔、钢铁、精细化工、科技国产替代领域会有较好的表现。</p><h2 id="分板块轮动概览（中信一级行业分类）"><a href="#分板块轮动概览（中信一级行业分类）" class="headerlink" title="分板块轮动概览（中信一级行业分类）"></a>分板块轮动概览（中信一级行业分类）</h2><table><thead><tr><th style="text-align:center">趋势</th><th style="text-align:center">时间</th><th style="text-align:center">前三板块</th><th style="text-align:center">后三板块</th><th style="text-align:center">备注</th></tr></thead><tbody><tr><td style="text-align:center">牛</td><td style="text-align:center">2005.6.6-2007.10.16</td><td style="text-align:center">非银金融(16.53)、有色(13.95)、房地产(7.92)</td><td style="text-align:center">电子元器件(2.39)、计算机(3.12)、通信(3.54)</td><td style="text-align:center">投资与出口双轮驱动</td></tr><tr><td style="text-align:center">熊</td><td style="text-align:center">2007.10.17-2008.10.27</td><td style="text-align:center">医药(0.45)基础化工(0.43)、建筑(0.42)</td><td style="text-align:center">有色(0.15)、煤炭(0.24)、钢铁(0.25)</td><td style="text-align:center">次贷危机引发全球金融危机</td></tr><tr><td style="text-align:center">牛</td><td style="text-align:center">2008.10.28-2009.8.3</td><td style="text-align:center">有色(3.72)、煤炭(3.17)、汽车(2.84)</td><td style="text-align:center">交运(1.77)、基础化工(1.8)、建筑(1.87)</td><td style="text-align:center">四万亿投资驱动</td></tr><tr><td style="text-align:center">结构熊</td><td style="text-align:center">2009.8.4-2014.6.30</td><td style="text-align:center">电子元器件(2.11)传媒(1.9)、计算机(1.78)</td><td style="text-align:center">煤炭(0.31)、钢铁(0.35)、有色(0.5)</td><td style="text-align:center">传统部门产能过剩、互联网经济兴起</td></tr><tr><td style="text-align:center">牛</td><td style="text-align:center">2014.7.1-2015.6.12</td><td style="text-align:center">计算机(4.38)、建筑(4.07)、纺织服装(3.84)</td><td style="text-align:center">银行(2.09)、石油石化(2.2)、食品饮料(2.22)</td><td style="text-align:center">货币宽松、房地产低迷</td></tr><tr><td style="text-align:center">熊</td><td style="text-align:center">2015.6.15-2016.2.29</td><td style="text-align:center">银行(0.76)、食品饮料(0.58)、餐饮旅游(0.58)</td><td style="text-align:center">钢铁(0.35)、传媒(0.4)、计算机(0.4)</td><td style="text-align:center">泡沫破灭</td></tr><tr><td style="text-align:center">结构牛</td><td style="text-align:center">2016.3.1-2018.1.26</td><td style="text-align:center">家电(2.25)、食品饮料(2.23)、银行(1.56)</td><td style="text-align:center">传媒(0.79)、计算机(0.89)、国防军工(0.92)</td><td style="text-align:center">供给侧改革、国企改革</td></tr><tr><td style="text-align:center">熊</td><td style="text-align:center">2018.1.29-</td><td style="text-align:center">餐饮旅游(0.93)、计算机(0.91)、医药(0.9)</td><td style="text-align:center">综合(0.62)、房地产(0.66)、有色(0.66)</td><td style="text-align:center">供给侧改革、贸易战</td></tr></tbody></table><h2 id="附：分阶段板块走势图（净值）"><a href="#附：分阶段板块走势图（净值）" class="headerlink" title="附：分阶段板块走势图（净值）"></a>附：分阶段板块走势图（净值）</h2><h3 id="2005-6-6-2007-10-16"><a href="#2005-6-6-2007-10-16" class="headerlink" title="2005.6.6-2007.10.16"></a>2005.6.6-2007.10.16</h3><div style="text-align:center"><br>    <img src="/img/bkld1.png" alt=""><br></div><h3 id="2007-10-17-2008-10-27"><a href="#2007-10-17-2008-10-27" class="headerlink" title="2007.10.17-2008.10.27"></a>2007.10.17-2008.10.27</h3><div style="text-align:center"><br>    <img src="/img/bkld2.png" alt=""><br></div><h3 id="2008-10-28-2009-8-3"><a href="#2008-10-28-2009-8-3" class="headerlink" title="2008.10.28-2009.8.3"></a>2008.10.28-2009.8.3</h3><div style="text-align:center"><br>    <img src="/img/bkld3.png" alt=""><br></div><h3 id="2009-8-4-2014-6-30"><a href="#2009-8-4-2014-6-30" class="headerlink" title="2009.8.4-2014.6.30"></a>2009.8.4-2014.6.30</h3><div style="text-align:center"><br>    <img src="/img/bkld4.png" alt=""><br></div><h3 id="2014-7-1-2015-6-12"><a href="#2014-7-1-2015-6-12" class="headerlink" title="2014.7.1-2015.6.12"></a>2014.7.1-2015.6.12</h3><div style="text-align:center"><br>    <img src="/img/bkld5.png" alt=""><br></div><h3 id="2015-6-15-2016-2-29"><a href="#2015-6-15-2016-2-29" class="headerlink" title="2015.6.15-2016.2.29"></a>2015.6.15-2016.2.29</h3><div style="text-align:center"><br>    <img src="/img/bkld6.png" alt=""><br></div><h3 id="2016-3-1-2018-1-26"><a href="#2016-3-1-2018-1-26" class="headerlink" title="2016.3.1-2018.1.26"></a>2016.3.1-2018.1.26</h3><div style="text-align:center"><br>    <img src="/img/bkld7.png" alt=""><br></div><h3 id="2018-1-29-2018-9-7"><a href="#2018-1-29-2018-9-7" class="headerlink" title="2018.1.29-2018.9.7"></a>2018.1.29-2018.9.7</h3><div style="text-align:center"><br>    <img src="/img/bkld8.png" alt=""><br></div>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>数据分析</tag>
-        <tag>股票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[基金管理模式变迁，人机融合拓展蓝海]]></title>
-    <url>%2F2018%2F08%2F31%2F%E4%BA%BA%E6%9C%BA%E8%9E%8D%E5%90%88%E6%8B%93%E5%B1%95%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E8%93%9D%E6%B5%B7%2F</url>
-    <content type="text"><![CDATA[主动基金 or 被动基金or SmartBeta？ 在投资领域，由于投资理念的不同，传统上基金可分类为主动型基金与被动（指数型）基金。主动型基金是一类力图取得超越基准组合表现的基金，即战胜市场。被动性基金并不主动寻求取得超越市场的表现，而是试图复制指数的表现，被动型基金一般选取特定的指数作为跟踪对象，比如沪深300、中证500等，因此通常又被称为指数基金。 在谈论主动管理型基金与被动管理型基金时，不少投资者持有非此即彼、二者选其一的观点。在我看来，这种看法是有失偏颇的。两者各有优势，并且有兼具两者优势的产品形态出现。 主动基金与被动基金分类方法是建立在有效市场假说理论的基础之上，有效市场假说有一个颇受质疑的前提假设，即参与市场的投资者有足够的理性，并且能够迅速对所有市场信息作出合理反应。行为金融学正是研究人类在投资领域的非理性决策和行为，两种有冲突的理论的倡导者都获得过诺贝尔经济学奖，都被学界所认可。 理论是对现实不完美的简化和抽象，人类善于分类，分类有利有弊，分类帮助人类快速认知自然和社会，是典型的归纳与演绎逻辑能力。头脑中形成的概念经常是非黑即白的对立，但现实中却充满“灰色”与混沌。近十几年出现并迅速发展的SmartBeta基金就是一种介于主动管理和被动管理的基金产品。SmartBeta代表的不是简单的指数被动投资，而是一种有思想有个性的Beta投资策略。根据中证指数公司，SmartBeta策略是以非市值加权为代表，通过透明的、基于规则或量化的方法，投资特定领域或目标，以捕捉风险溢价，获取卓越的风险调整收益，实现组合分散化的目标。它既具备主动投资的策略优势，又拥有被动投资的低手续费特色，因此在国内外日益盛行。 发达国家阿尔法越来越难，中国主动管理基金业绩相对乐观 我主张动态的去看。首先，处于不同历史发展阶段的市场，其市场有效性程度有区别。欧美股市发展超过百年，相关政策法律环境、投资者结构都相对成熟和稳定，而中国股市发展不过三十年，政策法律有待完善，投资者结构不稳定，散户占比很高。按照有效市场假说的三个推论，欧美股市的有效性明显会强于中国，或处于半强式有效的状态，而中国市场则可能尚处于弱式有效市场。有数据显示，美国的被动管理基金占比40%，而中国只有约20%。对比海外成熟市场，10年期跑赢中证全指和中证800指数的基金比例超过70%，而在美国、欧洲等地区跑赢对应市场指数的基金比例不足20%。这也充分说明，在中国市场主动管理仍然大有可为。 目前主动管理型基金普遍采用主观多头策略、传统多因子量化模型、市场中性等市场主流策略，而中国目前股票风险对冲工具不完善，宏观及监管政策处于不断变化当中，趋同的策略容易导致市场有效性的提升和超额利润的下降，也容易引发市场波动率的异常上升，类似美国1987股市巨震。 投资结构“机构化”加快，被动管理迎来机遇期 但是从另一方面，我们也应看到，被动管理的规模未来会相应扩大。国内养老金基金即将落地，而A股“入摩”以及金融领域对外资金融机构的进一步开放，将重构中国A股的投资结构，个人与机构的比重此消彼长的进程将加快。有数据显示，股票资产占美国家庭资产的配置达到了30%，而中国这个比例是3%，仍然有很大的发展空间。美国家庭资产对于股票的配置不是自己炒股，而是几乎全部购买基金产品，将资产交给专业的机构来打理，而被动管理的投资模式天然是机构的专长，他们具备专业、交易成本和资金规模优势，因此未来被动管理基金将迎来大发展时期。 人机融合：AI技术助力主观管理拓展蓝海 目前，伴随硬件算力、算法及大数据等技术组合的发展，人工智能正处于第三次大发展浪潮，将有利推动主动管理基金的差异化发展，拓展出一片蓝海。深度学习、知识图谱、自然语言处理、数据挖掘等工具将在另类数据搜集与清洗、投研决策、交易策略的制定和风控管理等相关方面给予诸多帮助，但人工智能也因为金融数据自身的不平稳、欧洲GPDR的影响，面临一些发展瓶颈，在投资领域不能完全替代人类，目前最好的方式是人机融合的基金管理模式，实现优势互补。相信在未来，能够主动拥抱掌握AI技术的基金经理，将在未来基金管理中占据优势。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 数据分析 </tag>
+            
+            <tag> 股票 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>基金管理模式变迁，人机融合拓展蓝海</title>
+      <link href="/2018/08/31/%E4%BA%BA%E6%9C%BA%E8%9E%8D%E5%90%88%E6%8B%93%E5%B1%95%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E8%93%9D%E6%B5%B7/"/>
+      <url>/2018/08/31/%E4%BA%BA%E6%9C%BA%E8%9E%8D%E5%90%88%E6%8B%93%E5%B1%95%E5%9F%BA%E9%87%91%E7%AE%A1%E7%90%86%E8%93%9D%E6%B5%B7/</url>
+      <content type="html"><![CDATA[<p><strong>主动基金 or 被动基金or SmartBeta？</strong></p><p>在投资领域，由于投资理念的不同，传统上基金可分类为主动型基金与被动（指数型）基金。主动型基金是一类力图取得超越基准组合表现的基金，即战胜市场。被动性基金并不主动寻求取得超越市场的表现，而是试图复制指数的表现，被动型基金一般选取特定的指数作为跟踪对象，比如沪深300、中证500等，因此通常又被称为指数基金。</p><p>在谈论主动管理型基金与被动管理型基金时，不少投资者持有非此即彼、二者选其一的观点。在我看来，这种看法是有失偏颇的。两者各有优势，并且有兼具两者优势的产品形态出现。</p><p>主动基金与被动基金分类方法是建立在有效市场假说理论的基础之上，有效市场假说有一个颇受质疑的前提假设，即参与市场的投资者有足够的理性，并且能够迅速对所有市场信息作出合理反应。行为金融学正是研究人类在投资领域的非理性决策和行为，两种有冲突的理论的倡导者都获得过诺贝尔经济学奖，都被学界所认可。</p><p>理论是对现实不完美的简化和抽象，人类善于分类，分类有利有弊，分类帮助人类快速认知自然和社会，是典型的归纳与演绎逻辑能力。头脑中形成的概念经常是非黑即白的对立，但现实中却充满“灰色”与混沌。近十几年出现并迅速发展的SmartBeta基金就是一种介于主动管理和被动管理的基金产品。SmartBeta代表的不是简单的指数被动投资，而是一种有思想有个性的Beta投资策略。根据中证指数公司，SmartBeta策略是以非市值加权为代表，通过透明的、基于规则或量化的方法，投资特定领域或目标，以捕捉风险溢价，获取卓越的风险调整收益，实现组合分散化的目标。它既具备主动投资的策略优势，又拥有被动投资的低手续费特色，因此在国内外日益盛行。</p><p><strong>发达国家阿尔法越来越难，中国主动管理基金业绩相对乐观</strong></p><p>我主张动态的去看。首先，处于不同历史发展阶段的市场，其市场有效性程度有区别。欧美股市发展超过百年，相关政策法律环境、投资者结构都相对成熟和稳定，而中国股市发展不过三十年，政策法律有待完善，投资者结构不稳定，散户占比很高。按照有效市场假说的三个推论，欧美股市的有效性明显会强于中国，或处于半强式有效的状态，而中国市场则可能尚处于弱式有效市场。有数据显示，美国的被动管理基金占比40%，而中国只有约20%。对比海外成熟市场，10年期跑赢中证全指和中证800指数的基金比例超过70%，而在美国、欧洲等地区跑赢对应市场指数的基金比例不足20%。这也充分说明，在中国市场主动管理仍然大有可为。</p><p><div style="text-align:center"><br>    <img src="/img/20180831.png" alt=""><br></div><br>目前主动管理型基金普遍采用主观多头策略、传统多因子量化模型、市场中性等市场主流策略，而中国目前股票风险对冲工具不完善，宏观及监管政策处于不断变化当中，趋同的策略容易导致市场有效性的提升和超额利润的下降，也容易引发市场波动率的异常上升，类似美国1987股市巨震。</p><p><strong>投资结构“机构化”加快，被动管理迎来机遇期</strong></p><p>但是从另一方面，我们也应看到，被动管理的规模未来会相应扩大。国内养老金基金即将落地，而A股“入摩”以及金融领域对外资金融机构的进一步开放，将重构中国A股的投资结构，个人与机构的比重此消彼长的进程将加快。有数据显示，股票资产占美国家庭资产的配置达到了30%，而中国这个比例是3%，仍然有很大的发展空间。美国家庭资产对于股票的配置不是自己炒股，而是几乎全部购买基金产品，将资产交给专业的机构来打理，而被动管理的投资模式天然是机构的专长，他们具备专业、交易成本和资金规模优势，因此未来被动管理基金将迎来大发展时期。</p><p><strong>人机融合：AI技术助力主观管理拓展蓝海</strong></p><p>目前，伴随硬件算力、算法及大数据等技术组合的发展，人工智能正处于第三次大发展浪潮，将有利推动主动管理基金的差异化发展，拓展出一片蓝海。深度学习、知识图谱、自然语言处理、数据挖掘等工具将在另类数据搜集与清洗、投研决策、交易策略的制定和风控管理等相关方面给予诸多帮助，但人工智能也因为金融数据自身的不平稳、欧洲GPDR的影响，面临一些发展瓶颈，在投资领域不能完全替代人类，目前最好的方式是人机融合的基金管理模式，实现优势互补。相信在未来，能够主动拥抱掌握AI技术的基金经理，将在未来基金管理中占据优势。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>主动管理</tag>
-        <tag>被动管理</tag>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[MSCI带来新的资金增量和股票量化模型]]></title>
-    <url>%2F2018%2F08%2F28%2FMSCI%E5%B8%A6%E6%9D%A5%E6%96%B0%E7%9A%84%E8%B5%84%E9%87%91%E5%A2%9E%E9%87%8F%E5%92%8C%E8%82%A1%E7%A5%A8%E9%87%8F%E5%8C%96%E6%A8%A1%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[MSCI实施A股纳入MSCI指数的第二步2017年6月，A股“入摩”成功。2018年5月31日开始，MSCI开始把中国大盘A股部分纳入MSCI新兴市场指数。本周（8月31日）收盘后，MSCI将实施A股纳入MSCI指数的第二步，把现有的纳入因子从2.5%提高至5%。MSCI中国指数还将新加入10只成分股，总数由226增至236个。至此，经调整后的A股占MSCI新兴市场指数的权重将由0.39%升至0.75%。从成本股变化上看，中航沈飞、中国神华、中国联通、国电电力、恒力股份、国电南瑞、TCL集团、中兴通讯、用友网络、玲珑轮胎等10只A股新加入MSCI中国指数，相关成份股变动将于2018年8月31日交易日结束后生效。 有望为A股带来新的增量资金对资本市场而言，最期待的自然是将A股纳入MSCI指数后带来的增量资金。从资金流量来看，根据历史国际经验，A股“入摩”前1-2月，外资流入量放大。根据中信建投证券测算，4-5月分别净买入386.50亿元、508.51亿元，7月北上资金通过沪、深港通净流入284.76亿元。可相比较的是，3月彼时仅有97.13亿元。被动资金一般在正式生效前后配置A股市场，因此本次增量资金主要集中在8月的最后1、2个交易日（周四、周五）集中入市，相对于A股近期2500亿上下的成交规模，具有脉冲式的行情效应。 目前A股市场正处于一个平台整理期，虽然外围市场、中美贸易摩擦等因素仍然对市场有一定抑制，但随着政策底、资金底和情绪底“三底”落定，恰逢上市公司半年报进入集中披露期，投资者风险偏好料将有所上升，市场大概率逐步企稳，回购、增持、北上资金流入(MSCI第二轮的流入)都将持续为市场提供增量资金。 MSCI barra 发布新一代中国股票模型另外值得关注的是，就在2018年8月28日，MSCI在北京发布了新一代中国股票量化模型。MSCI不仅仅是一家股票市场指数供应商，还是投资决策支持工具提供商，为中国股票量化投资者提供多因子选股分析和结构化风险因子分析。此前MSCI已经发布了三代针对于A股市场的中国股票量化模型。相比于早期的中国股票因子模型，第三代模型CNE5 中的关键变化之一是加入了国家因子。据MSCI称，本次发布的新一代中国股票模型 - 中国A股全市场模型，与以前的模型相比，提供更深入的中国A股市场分析。模型将再度加入新的因子，为投资者和风险管理专业人员提供更深入的理解和有价值的信息。相信能为A股量化投资者带来更大帮助。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 主动管理 </tag>
+            
+            <tag> 被动管理 </tag>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>MSCI带来新的资金增量和股票量化模型</title>
+      <link href="/2018/08/28/MSCI%E5%B8%A6%E6%9D%A5%E6%96%B0%E7%9A%84%E8%B5%84%E9%87%91%E5%A2%9E%E9%87%8F%E5%92%8C%E8%82%A1%E7%A5%A8%E9%87%8F%E5%8C%96%E6%A8%A1%E5%9E%8B/"/>
+      <url>/2018/08/28/MSCI%E5%B8%A6%E6%9D%A5%E6%96%B0%E7%9A%84%E8%B5%84%E9%87%91%E5%A2%9E%E9%87%8F%E5%92%8C%E8%82%A1%E7%A5%A8%E9%87%8F%E5%8C%96%E6%A8%A1%E5%9E%8B/</url>
+      <content type="html"><![CDATA[<h4 id="MSCI实施A股纳入MSCI指数的第二步"><a href="#MSCI实施A股纳入MSCI指数的第二步" class="headerlink" title="MSCI实施A股纳入MSCI指数的第二步"></a>MSCI实施A股纳入MSCI指数的第二步</h4><p>2017年6月，A股“入摩”成功。2018年5月31日开始，MSCI开始把中国大盘A股部分纳入MSCI新兴市场指数。本周（8月31日）收盘后，MSCI将实施A股纳入MSCI指数的第二步，把现有的纳入因子从2.5%提高至5%。MSCI中国指数还将新加入10只成分股，总数由226增至236个。至此，经调整后的A股占MSCI新兴市场指数的权重将由0.39%升至0.75%。从成本股变化上看，中航沈飞、中国神华、中国联通、国电电力、恒力股份、国电南瑞、TCL集团、中兴通讯、用友网络、玲珑轮胎等10只A股新加入MSCI中国指数，相关成份股变动将于2018年8月31日交易日结束后生效。</p><h4 id="有望为A股带来新的增量资金"><a href="#有望为A股带来新的增量资金" class="headerlink" title="有望为A股带来新的增量资金"></a>有望为A股带来新的增量资金</h4><p>对资本市场而言，最期待的自然是将A股纳入MSCI指数后带来的增量资金。从资金流量来看，根据历史国际经验，A股“入摩”前1-2月，外资流入量放大。根据中信建投证券测算，4-5月分别净买入386.50亿元、508.51亿元，7月北上资金通过沪、深港通净流入284.76亿元。可相比较的是，3月彼时仅有97.13亿元。被动资金一般在正式生效前后配置A股市场，因此本次增量资金主要集中在8月的最后1、2个交易日（周四、周五）集中入市，相对于A股近期2500亿上下的成交规模，具有脉冲式的行情效应。</p><div style="text-align:center"><br>    <img src="/img/MSCI.png" alt=""><br></div>                                                  <p>目前A股市场正处于一个平台整理期，虽然外围市场、中美贸易摩擦等因素仍然对市场有一定抑制，但随着政策底、资金底和情绪底“三底”落定，恰逢上市公司半年报进入集中披露期，投资者风险偏好料将有所上升，市场大概率逐步企稳，回购、增持、北上资金流入(MSCI第二轮的流入)都将持续为市场提供增量资金。</p><h4 id="MSCI-barra-发布新一代中国股票模型"><a href="#MSCI-barra-发布新一代中国股票模型" class="headerlink" title="MSCI barra 发布新一代中国股票模型"></a>MSCI barra 发布新一代中国股票模型</h4><p>另外值得关注的是，就在2018年8月28日，MSCI在北京发布了新一代中国股票量化模型。MSCI不仅仅是一家股票市场指数供应商，还是投资决策支持工具提供商，为中国股票量化投资者提供多因子选股分析和结构化风险因子分析。此前MSCI已经发布了三代针对于A股市场的中国股票量化模型。相比于早期的中国股票因子模型，第三代模型CNE5 中的关键变化之一是加入了国家因子。据MSCI称，本次发布的新一代中国股票模型 - 中国A股全市场模型，与以前的模型相比，提供更深入的中国A股市场分析。模型将再度加入新的因子，为投资者和风险管理专业人员提供更深入的理解和有价值的信息。相信能为A股量化投资者带来更大帮助。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>MSCI</tag>
-        <tag>量化模型</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[与趋势为友：商品多品种趋势跟踪策略示例]]></title>
-    <url>%2F2018%2F08%2F17%2F%E4%B8%8E%E8%B6%8B%E5%8A%BF%E4%B8%BA%E5%8F%8B%EF%BC%9A%E5%95%86%E5%93%81%E5%A4%9A%E5%93%81%E7%A7%8D%E8%B6%8B%E5%8A%BF%E8%B7%9F%E8%B8%AA%E7%AD%96%E7%95%A5%E7%A4%BA%E4%BE%8B%2F</url>
-    <content type="text"><![CDATA[商品CTA最主流的策略是趋势跟踪，管理期货基金在今年的私募基金排行榜上成为最赚钱的大类基金，得益于今年黑色、化工以及部分农产品走出了类似2016年的大级别单边行情，那么如何跟踪呢，个人觉得，无论逻辑是技术驱动还是基本面驱动，只有遵循量化交易的一致性法则，做好资金管理，才能真正做到与趋势为友。 一、策略原理本策略内核基于唐奇安通道突破策略，突破前期高点做多，突破前期低点做空。投资者心理上往往存在一个价格锚。这个锚很多时候不是复杂的公式计算结果，而是之前的低点与高点。例如交易过程中，一旦价格突破之前高位，则交易者心理上会认为市场进入了一个新阶段，突破高价是市场开始走强的信号，从而开始追涨杀跌。 二、策略优化1、如果同向持续突破，将按照一定资金比例加仓。如达到止损条件，则止损离场，并且同向突破止损连续不能超过一定次数。以2005-2015年数据作为训练集，针对每个品种的参数进行独立优化。 2、为了减小总资金最大回撤，本策略选取了活跃度较高且配备一些彼此相关性较低的品种，共计13个品种，目前仅为日线级别周期跟踪。 三、测试说明1、总资金650万，最大资金使用比例7.4% 2、交易成本：2元/手或1%%的手续费。开平仓各一跳滑点 3、保证金：每个品种均按合约价值8%的保证金进行测算 4、回测时间：2016年1月1日-2018年8月17日 5、回测软件：文华财经WH8 组合回测 6、回测方式：各品种文华指数出信号，按主力合约进行交易 四、策略表现 五、效果评价 测试结果表明，尽管国内很多品种彼此相关性很高，但通过多品种搭配组合以后，很好的降低了资金最大回撤。本组合最终取得了年化复利收益率15.49%、权益最大回撤比6.24%的成绩。 六、后期改进1、考虑对日内级别K线做进一步测试，尝试多周期和跨周期。 2、考虑加入一套子策略，对趋势与震荡进行识别，当判断当前状态为趋势状态时，开启趋势跟随策略进行交易。当判断当前状态为震荡时，停止交易。 3、目前每个品种是等权重分配资金，后期将根据阶段性历史表现动态调整资金配置比例。]]></content>
+      
+      
+        <tags>
+            
+            <tag> MSCI </tag>
+            
+            <tag> 量化模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>与趋势为友：商品多品种趋势跟踪策略示例</title>
+      <link href="/2018/08/17/%E4%B8%8E%E8%B6%8B%E5%8A%BF%E4%B8%BA%E5%8F%8B%EF%BC%9A%E5%95%86%E5%93%81%E5%A4%9A%E5%93%81%E7%A7%8D%E8%B6%8B%E5%8A%BF%E8%B7%9F%E8%B8%AA%E7%AD%96%E7%95%A5%E7%A4%BA%E4%BE%8B/"/>
+      <url>/2018/08/17/%E4%B8%8E%E8%B6%8B%E5%8A%BF%E4%B8%BA%E5%8F%8B%EF%BC%9A%E5%95%86%E5%93%81%E5%A4%9A%E5%93%81%E7%A7%8D%E8%B6%8B%E5%8A%BF%E8%B7%9F%E8%B8%AA%E7%AD%96%E7%95%A5%E7%A4%BA%E4%BE%8B/</url>
+      <content type="html"><![CDATA[<p>商品CTA最主流的策略是趋势跟踪，管理期货基金在今年的私募基金排行榜上成为最赚钱的大类基金，得益于今年黑色、化工以及部分农产品走出了类似2016年的大级别单边行情，那么如何跟踪呢，个人觉得，无论逻辑是技术驱动还是基本面驱动，只有遵循量化交易的一致性法则，做好资金管理，才能真正做到与趋势为友。</p><h3 id="一、策略原理"><a href="#一、策略原理" class="headerlink" title="一、策略原理"></a>一、策略原理</h3><p>本策略内核基于唐奇安通道突破策略，突破前期高点做多，突破前期低点做空。投资者心理上往往存在一个价格锚。这个锚很多时候不是复杂的公式计算结果，而是之前的低点与高点。例如交易过程中，一旦价格突破之前高位，则交易者心理上会认为市场进入了一个新阶段，突破高价是市场开始走强的信号，从而开始追涨杀跌。</p><h3 id="二、策略优化"><a href="#二、策略优化" class="headerlink" title="二、策略优化"></a>二、策略优化</h3><p>1、如果同向持续突破，将按照一定资金比例加仓。如达到止损条件，则止损离场，并且同向突破止损连续不能超过一定次数。以2005-2015年数据作为训练集，针对每个品种的参数进行独立优化。</p><p>2、为了减小总资金最大回撤，本策略选取了活跃度较高且配备一些彼此相关性较低的品种，共计13个品种，目前仅为日线级别周期跟踪。</p><h3 id="三、测试说明"><a href="#三、测试说明" class="headerlink" title="三、测试说明"></a>三、测试说明</h3><p>1、总资金650万，最大资金使用比例7.4%</p><p>2、交易成本：2元/手或1%%的手续费。开平仓各一跳滑点</p><p>3、保证金：每个品种均按合约价值8%的保证金进行测算</p><p>4、回测时间：2016年1月1日-2018年8月17日</p><p>5、回测软件：文华财经WH8 组合回测</p><p>6、回测方式：各品种文华指数出信号，按主力合约进行交易</p><h3 id="四、策略表现"><a href="#四、策略表现" class="headerlink" title="四、策略表现"></a>四、策略表现</h3><div style="text-align:center"><br>    <img src="/img/cta1.png" alt=""><br></div><div style="text-align:center"><br>    <img src="/img/cta2.png" alt=""><br></div><h3 id="五、效果评价"><a href="#五、效果评价" class="headerlink" title="五、效果评价"></a>五、效果评价</h3><div style="text-align:center"><br>    <img src="/img/cta3.png" alt=""><br></div><p>测试结果表明，尽管国内很多品种彼此相关性很高，但通过多品种搭配组合以后，很好的降低了资金最大回撤。本组合最终取得了年化复利收益率15.49%、权益最大回撤比6.24%的成绩。</p><h3 id="六、后期改进"><a href="#六、后期改进" class="headerlink" title="六、后期改进"></a>六、后期改进</h3><p>1、考虑对日内级别K线做进一步测试，尝试多周期和跨周期。</p><p>2、考虑加入一套子策略，对趋势与震荡进行识别，当判断当前状态为趋势状态时，开启趋势跟随策略进行交易。当判断当前状态为震荡时，停止交易。</p><p>3、目前每个品种是等权重分配资金，后期将根据阶段性历史表现动态调整资金配置比例。</p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>CTA</tag>
-        <tag>趋势跟踪</tag>
-        <tag>策略回测</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[投资界需要拥抱人工智能]]></title>
-    <url>%2F2018%2F08%2F16%2F%E6%8A%95%E8%B5%84%E7%95%8C%E9%9C%80%E8%A6%81%E6%8B%A5%E6%8A%B1%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%2F</url>
-    <content type="text"><![CDATA[低开高走：全球首只人工智能ETF基金十个月表现2017年10月18日，全球首只号称使用人工智能选股的AI Powered Equity ETF (AIEQ) 在纽交所推出。该基金出来后，受到广大投资人及媒体的关注，我们来看看一路而来的收益率变化及媒体报道风向的转变，非常有意思。借助AlphaGo的全球影响力，AIEQ刚推出就被热捧，但因前三个月业绩跑输标普500，遭到市场的广泛质疑。在今年4月逐渐赶上并超越大盘指数后，媒体开始谨慎看好，直到今年6月经历了两个月的大幅跑赢指数后，再度赢得媒体的热捧。 截止2018年8月14日，推出近10个月，AIEQ的资产管理规模已经超过1.69亿美元，录得投资收益15.22%，年化波动率为15.16%，最大回撤为9.77%。与之相比，同期标普500指数的收益为10.88%，年化波动率14.05%，最大回撤为10.16%。 由去年最多跑输超过4%到如今跑赢超过4%。人工智能的发展方兴未艾，机器学习是其重要的分支之一，其最有魅力的地方是它可以通过有监督学习或无监督学习，不断进化，因此我们不能仅凭一时的表现去评价人工智能基金，也不能凭当前的表现来推测未来人工智能基金的表现。时间能证明一切。 传统的量化投资策略，需要建立各种数学模型，然后利用金融数据试图找出市场规律并从中获利。这样的方法高度依赖于模型的有效性，而且投资市场中蕴藏着复杂的非线性关系，往往需要构建复杂繁琐的数学模型才能得到接近局部最优解的结果。 人工智能算法，特别是强化学习算法的引入，从另一个角度给出了解决问题的思路：不再依赖复杂的传统数学模型，而是利用相关算法对海量数据进行探索，从而可以超越人类积累的经验，有望更加接近真正的全局最优解。 强化学习：世人周知AlphaGo，鲜知AlphaGo ZeroAlphaGo通过与世界围棋冠军李世石和柯洁的两场战斗而举世闻名。2017年，谷歌DeepMind团队在Nature发表了关于新一代围棋AI“AlphaGo Zero”的论文，展示了强化学习在为其应用上的新突破。和之前的Alpha Go版本相比，新版本不需要借助人类经验数据，完全依赖深度强化学习进行训练，经过短短3天的训练后，就能以100：0的成绩击败曾经战胜李世石的AlphaGo，40天以后就能超越所有的前代版本。 AlphaGo使用传统的监督学习算法，首先要将大量人类对弈的棋谱作为输入，让AlphaGo从中学习；而AlphaGo Zero相比AlphaGo的一个显著变化是，使用了无监督学习的强化学习算法，不再依赖棋谱输入，仅仅需要基本的围棋规则，便完全由零开始进行学习，彻底摆脱了人类想象力的限制。 强化学习（Reinforcement learning，RL），也叫增强学习，是指一类从与环境交互中不断学习问题以及解决问题的方法。强化学习是机器学习的一个重要分支，其与监督学习的不同在于，监督学习需要给定“正确”策略标签，而强化学习则只需要给出策略的（延迟）回报，通过调整策略来最大化期望回报。 拥抱人工智能：量化投资的必然选择AI Powered Equity ETF就运用了强化学习技术。AI Powered Equity ETF由EquBot管理，后者是IBM旗下的IBM Global Entrepreneur的投资分部，专门负责在投资分析应用人工智能技术。根据其官网公开信息，EquBot基于IBM的人工智能平台Watson, 分析经济和新闻数据，对美国上市的股票和REITs进行基本面分析，构建一个含30-70只股票的组合。这个组合每天对公众公开。EquBot的创始团队在彭博的访谈中提到，EquBot的量化模型利用了机器学习的技术，随着时间的推移，量化模型将不断根据此前输出结果的反馈进行学习，提升自身的表现。这正是强化学习算法的特点，随着运行时间变长，新的数据不断更新模型的参数，模型的表现也会越好。可以看到，AIEQ由初期的跑输大盘，到近期追近甚至赶超标普500指数，说明强化学习在投资领域的应用是大有可为的，同时在金融投资领域应用强化学习，也面临数据不足且不平稳、较大的市场噪音、习得参数较难解释等问题。 越来越多的国内基金公司看到了人工智能在投资领域的广阔前景。华夏基金(香港)日前宣布推出一个针对A股市场的智能多因子策略－AI China Alpha策略, 为首批涉足人工智能的离岸中资基金公司之一。 AI China Alpha策略基于机器学习算法进行选股，根据市场周期的不同而应用动态多因子模型。]]></content>
+      
+      
+        <tags>
+            
+            <tag> CTA </tag>
+            
+            <tag> 趋势跟踪 </tag>
+            
+            <tag> 策略回测 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>投资界需要拥抱人工智能</title>
+      <link href="/2018/08/16/%E6%8A%95%E8%B5%84%E7%95%8C%E9%9C%80%E8%A6%81%E6%8B%A5%E6%8A%B1%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+      <url>/2018/08/16/%E6%8A%95%E8%B5%84%E7%95%8C%E9%9C%80%E8%A6%81%E6%8B%A5%E6%8A%B1%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</url>
+      <content type="html"><![CDATA[<h3 id="低开高走：全球首只人工智能ETF基金十个月表现"><a href="#低开高走：全球首只人工智能ETF基金十个月表现" class="headerlink" title="低开高走：全球首只人工智能ETF基金十个月表现"></a>低开高走：全球首只人工智能ETF基金十个月表现</h3><p>2017年10月18日，全球首只号称使用人工智能选股的AI Powered Equity ETF (AIEQ) 在纽交所推出。该基金出来后，受到广大投资人及媒体的关注，我们来看看一路而来的收益率变化及媒体报道风向的转变，非常有意思。借助AlphaGo的全球影响力，AIEQ刚推出就被热捧，但因前三个月业绩跑输标普500，遭到市场的广泛质疑。在今年4月逐渐赶上并超越大盘指数后，媒体开始谨慎看好，直到今年6月经历了两个月的大幅跑赢指数后，再度赢得媒体的热捧。</p><div style="text-align:center"><br>    <img src="/img/AIEQvsSP500.png" alt=""><br></div><p>截止2018年8月14日，推出近10个月，AIEQ的资产管理规模已经超过1.69亿美元，录得投资收益15.22%，年化波动率为15.16%，最大回撤为9.77%。与之相比，同期标普500指数的收益为10.88%，年化波动率14.05%，最大回撤为10.16%。 由去年最多跑输超过4%到如今跑赢超过4%。人工智能的发展方兴未艾，机器学习是其重要的分支之一，其最有魅力的地方是它可以通过有监督学习或无监督学习，不断进化，因此我们不能仅凭一时的表现去评价人工智能基金，也不能凭当前的表现来推测未来人工智能基金的表现。时间能证明一切。</p><p>传统的量化投资策略，需要建立各种数学模型，然后利用金融数据试图找出市场规律并从中获利。这样的方法高度依赖于模型的有效性，而且投资市场中蕴藏着复杂的非线性关系，往往需要构建复杂繁琐的数学模型才能得到接近局部最优解的结果。 人工智能算法，特别是强化学习算法的引入，从另一个角度给出了解决问题的思路：不再依赖复杂的传统数学模型，而是利用相关算法对海量数据进行探索，从而可以超越人类积累的经验，有望更加接近真正的全局最优解。 </p><h3 id="强化学习：世人周知AlphaGo，鲜知AlphaGo-Zero"><a href="#强化学习：世人周知AlphaGo，鲜知AlphaGo-Zero" class="headerlink" title="强化学习：世人周知AlphaGo，鲜知AlphaGo Zero"></a>强化学习：世人周知AlphaGo，鲜知AlphaGo Zero</h3><p>AlphaGo通过与世界围棋冠军李世石和柯洁的两场战斗而举世闻名。2017年，谷歌DeepMind团队在Nature发表了关于新一代围棋AI“AlphaGo Zero”的论文，展示了强化学习在为其应用上的新突破。和之前的Alpha Go版本相比，新版本不需要借助人类经验数据，完全依赖深度强化学习进行训练，经过短短3天的训练后，就能以100：0的成绩击败曾经战胜李世石的AlphaGo，40天以后就能超越所有的前代版本。 </p><div style="text-align:center"><br>    <img src="/img/alpha go.png" alt=""><br></div><p>AlphaGo使用传统的监督学习算法，首先要将大量人类对弈的棋谱作为输入，让AlphaGo从中学习；而AlphaGo Zero相比AlphaGo的一个显著变化是，使用了无监督学习的强化学习算法，不再依赖棋谱输入，仅仅需要基本的围棋规则，便完全由零开始进行学习，彻底摆脱了人类想象力的限制。</p><p>强化学习（Reinforcement learning，RL），也叫增强学习，是指一类从与环境交互中不断学习问题以及解决问题的方法。强化学习是机器学习的一个重要分支，其与监督学习的不同在于，监督学习需要给定“正确”策略标签，而强化学习则只需要给出策略的（延迟）回报，通过调整策略来最大化期望回报。</p><h3 id="拥抱人工智能：量化投资的必然选择"><a href="#拥抱人工智能：量化投资的必然选择" class="headerlink" title="拥抱人工智能：量化投资的必然选择"></a>拥抱人工智能：量化投资的必然选择</h3><p>AI Powered Equity ETF就运用了强化学习技术。AI Powered Equity ETF由EquBot管理，后者是IBM旗下的IBM Global Entrepreneur的投资分部，专门负责在投资分析应用人工智能技术。根据其官网公开信息，EquBot基于IBM的人工智能平台Watson, 分析经济和新闻数据，对美国上市的股票和REITs进行基本面分析，构建一个含30-70只股票的组合。这个组合每天对公众公开。EquBot的创始团队在彭博的访谈中提到，EquBot的量化模型利用了机器学习的技术，随着时间的推移，量化模型将不断根据此前输出结果的反馈进行学习，提升自身的表现。这正是强化学习算法的特点，随着运行时间变长，新的数据不断更新模型的参数，模型的表现也会越好。可以看到，AIEQ由初期的跑输大盘，到近期追近甚至赶超标普500指数，说明强化学习在投资领域的应用是大有可为的，同时在金融投资领域应用强化学习，也面临数据不足且不平稳、较大的市场噪音、习得参数较难解释等问题。 </p><p>越来越多的国内基金公司看到了人工智能在投资领域的广阔前景。华夏基金(香港)日前宣布推出一个针对A股市场的智能多因子策略－AI China Alpha策略, 为首批涉足人工智能的离岸中资基金公司之一。 AI China Alpha策略基于机器学习算法进行选股，根据市场周期的不同而应用动态多因子模型。 </p>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>人工智能</tag>
-        <tag>强化学习</tag>
-        <tag>ETF基金</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[我的生产力工具]]></title>
-    <url>%2F2018%2F05%2F10%2F%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7%2F</url>
-    <content type="text"><![CDATA[有许多软件或app能够帮助我们提高工作效率和生活品质，笔者通过平时的使用心得，经过精挑细选，从上网、办公、编程、图像视频处理等方面总结了相应的一些软件。分享如下： 名称 性质 功能 特色 Firefox（V10） 软件 浏览及管理网络信息、调试代码 速度快、功能强大 finaldata 软件 恢复硬盘上删除的文件 方便快速，尤其适合office文档恢复 FileLocatorPro 软件 文件文本内容搜寻 批量对PDF文件的内容搜索，速度快 MouseWithoutBordersSetup 软件 局域网键盘鼠标控制操作多个电脑 多电脑操作神器 TC 软件 类似键盘精灵，可打包成exe 可编程，速度快 HA-IcoFX1.5-lifu 软件 ico制作 小巧方便 fscapture 软件 截图 小巧，滚动截屏，生成PDF FileZilla 软件 FTP上传下载 小巧方便 Anaconda3 软件 python集成软件包 软件包管理方便 Jupyter Notebook 软件 数据分析 python数据分析神器 VS Code 软件 编程（适合js\python等） 速度快、插件丰富、集成终端 AVS Video Editor 软件 视频编辑器 做带视频的电子相册 Calibre Portable 软件 电子书管理 电子书制作，kindle电子书上传 cherrytree 软件 文本编辑器 写日记，做笔记，离线知识分类存档管理 Xmind 软件 思维导图编辑器 做思维导图，整理思路 滴答清单 web、手机app 时间管理 免费功能基本能满足手机和PC端同步实践GTD理念 Typora 软件 Markdown写作 区别于传统，人性化，细节到位，如excel表格可直接粘贴过来]]></content>
+      
+      
+        <tags>
+            
+            <tag> 人工智能 </tag>
+            
+            <tag> 强化学习 </tag>
+            
+            <tag> ETF基金 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>我的生产力工具</title>
+      <link href="/2018/05/10/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/"/>
+      <url>/2018/05/10/%E7%94%9F%E4%BA%A7%E5%8A%9B%E5%B7%A5%E5%85%B7/</url>
+      <content type="html"><![CDATA[<p>有许多软件或app能够帮助我们提高工作效率和生活品质，笔者通过平时的使用心得，经过精挑细选，从上网、办公、编程、图像视频处理等方面总结了相应的一些软件。分享如下：</p><table><thead><tr><th>名称</th><th>性质</th><th>功能</th><th>特色</th></tr></thead><tbody><tr><td>Firefox（V10）</td><td>软件</td><td>浏览及管理网络信息、调试代码</td><td>速度快、功能强大</td></tr><tr><td>finaldata</td><td>软件</td><td>恢复硬盘上删除的文件</td><td>方便快速，尤其适合office文档恢复</td></tr><tr><td>FileLocatorPro</td><td>软件</td><td>文件文本内容搜寻</td><td>批量对PDF文件的内容搜索，速度快</td></tr><tr><td>MouseWithoutBordersSetup</td><td>软件</td><td>局域网键盘鼠标控制操作多个电脑</td><td>多电脑操作神器</td></tr><tr><td>TC</td><td>软件</td><td>类似键盘精灵，可打包成exe</td><td>可编程，速度快</td></tr><tr><td>HA-IcoFX1.5-lifu</td><td>软件</td><td>ico制作</td><td>小巧方便</td></tr><tr><td>fscapture</td><td>软件</td><td>截图</td><td>小巧，滚动截屏，生成PDF</td></tr><tr><td>FileZilla</td><td>软件</td><td>FTP上传下载</td><td>小巧方便</td></tr><tr><td>Anaconda3</td><td>软件</td><td>python集成软件包</td><td>软件包管理方便</td></tr><tr><td>Jupyter Notebook</td><td>软件</td><td>数据分析</td><td>python数据分析神器</td></tr><tr><td>VS Code</td><td>软件</td><td>编程（适合js\python等）</td><td>速度快、插件丰富、集成终端</td></tr><tr><td>AVS Video Editor</td><td>软件</td><td>视频编辑器</td><td>做带视频的电子相册</td></tr><tr><td>Calibre Portable</td><td>软件</td><td>电子书管理</td><td>电子书制作，kindle电子书上传</td></tr><tr><td>cherrytree</td><td>软件</td><td>文本编辑器</td><td>写日记，做笔记，离线知识分类存档管理</td></tr><tr><td>Xmind</td><td>软件</td><td>思维导图编辑器</td><td>做思维导图，整理思路</td></tr><tr><td>滴答清单</td><td>web、手机app</td><td>时间管理</td><td>免费功能基本能满足手机和PC端同步实践GTD理念</td></tr><tr><td>Typora</td><td>软件</td><td>Markdown写作</td><td>区别于传统，人性化，细节到位，如excel表格可直接粘贴过来</td></tr></tbody></table>]]></content>
+      
       <categories>
-        <category>IT应用</category>
+          
+          <category> IT应用 </category>
+          
       </categories>
-      <tags>
-        <tag>生产力工具</tag>
-        <tag>效率</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[睡眠革命]]></title>
-    <url>%2F2018%2F03%2F31%2F%E7%9D%A1%E7%9C%A0%E9%9D%A9%E5%91%BD%2F</url>
-    <content type="text"><![CDATA[就像手机需要充电，每个人都需要睡眠，但不是每个人都能了解睡眠规律，并能高效睡眠。尼克是一位优秀的睡眠教练，他曾为包括NBA、英国天空车队，英式橄榄球联合会、美国国家橄榄球联盟、英超足球联赛选手和奥运会金牌得主在内的诸多顶级团队和运动员提供咨询服务和长期合作，很多体育名将如大卫·贝克汉姆、瑞恩·吉格斯等都是其睡眠方案的获益者。有幸看了他出版的书《睡眠革命》，觉得有助于帮助我们解决睡眠问题。 内容提要 人生短暂，美好时光、极致体验不容错失。因此，我希望给你信心，让你做出这些决定，并弹性地安排你的时间，而无需担心“准时”上床这个问题，也不会为必须“睡个好觉”而备感压力。采用本书中为你制订的这些措施，你就能学着改善睡眠的质量，而不是为睡眠的时长苦苦纠结。 本书将会说明，在更好地调控睡眠这一点上，我们能从旧石器时代的祖先那儿学到什么——试着回顾一下古人是怎样睡觉的；同时，试着应付好现代社会给睡眠带来的各种挑战——比如，智能手机、笔记本电脑、飞行时差和工作到深夜。现代科技是一个好东西，因此，我不会建议你为了好好睡上一晚就放弃这些现代科技产品——可以继续保留这些现代产品，而且这只是一个开始——只需稍加注意，别让它们影响我们的健康。 我将为你呈现我的R90睡眠修复方案。我训练那些优秀运动员时，用的就是这套方案。将近20年前，当我担任职业睡眠教练的时候，在从多名医生、学者、运动科学家、理疗师、床垫和寝具制造商甚至我的孩子们那儿吸取了不少知识之后，我设计出了这一套方案，并在竞技体育的前沿领域测试了这一套方案。这些运动员将人体体能发挥到了极致。我也可以向你展示，如何才能发挥你自己的最佳水平。 思维导图读完第一遍后，用思维导图整理了一下思路。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 生产力工具 </tag>
+            
+            <tag> 效率 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>睡眠革命</title>
+      <link href="/2018/03/31/%E7%9D%A1%E7%9C%A0%E9%9D%A9%E5%91%BD/"/>
+      <url>/2018/03/31/%E7%9D%A1%E7%9C%A0%E9%9D%A9%E5%91%BD/</url>
+      <content type="html"><![CDATA[<p>就像手机需要充电，每个人都需要睡眠，但不是每个人都能了解睡眠规律，并能高效睡眠。尼克是一位优秀的睡眠教练，他曾为包括NBA、英国天空车队，英式橄榄球联合会、美国国家橄榄球联盟、英超足球联赛选手和奥运会金牌得主在内的诸多顶级团队和运动员提供咨询服务和长期合作，很多体育名将如大卫·贝克汉姆、瑞恩·吉格斯等都是其睡眠方案的获益者。有幸看了他出版的书《睡眠革命》，觉得有助于帮助我们解决睡眠问题。</p><h3 id="内容提要"><a href="#内容提要" class="headerlink" title="内容提要"></a>内容提要</h3><blockquote><p>人生短暂，美好时光、极致体验不容错失。因此，我希望给你信心，让你做出这些决定，并弹性地安排你的时间，而无需担心“准时”上床这个问题，也不会为必须“睡个好觉”而备感压力。采用本书中为你制订的这些措施，你就能学着改善睡眠的质量，而不是为睡眠的时长苦苦纠结。</p></blockquote><blockquote><p>本书将会说明，在更好地调控睡眠这一点上，我们能从旧石器时代的祖先那儿学到什么——试着回顾一下古人是怎样睡觉的；同时，试着应付好现代社会给睡眠带来的各种挑战——比如，智能手机、笔记本电脑、飞行时差和工作到深夜。现代科技是一个好东西，因此，我不会建议你为了好好睡上一晚就放弃这些现代科技产品——可以继续保留这些现代产品，而且这只是一个开始——只需稍加注意，别让它们影响我们的健康。</p></blockquote><blockquote><p>我将为你呈现我的R90睡眠修复方案。我训练那些优秀运动员时，用的就是这套方案。将近20年前，当我担任职业睡眠教练的时候，在从多名医生、学者、运动科学家、理疗师、床垫和寝具制造商甚至我的孩子们那儿吸取了不少知识之后，我设计出了这一套方案，并在竞技体育的前沿领域测试了这一套方案。这些运动员将人体体能发挥到了极致。我也可以向你展示，如何才能发挥你自己的最佳水平。</p></blockquote><h3 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h3><p>读完第一遍后，用思维导图整理了一下思路。</p><div style="text-align:center"><br>    <img src="/img/smgm.png" alt=""><br></div>]]></content>
+      
       <categories>
-        <category>健康运动</category>
+          
+          <category> 健康运动 </category>
+          
       </categories>
-      <tags>
-        <tag>睡眠</tag>
-        <tag>R90</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[期货基本面量化分析框架演示]]></title>
-    <url>%2F2018%2F03%2F16%2F%E6%9C%9F%E8%B4%A7%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%2F</url>
-    <content type="text"><![CDATA[怎样才能做好期货基本面分析？对现货行业市场、宏观环境、产业链头部企业三者均要做足功课，形成自己的市场驱动逻辑，同时要面对海量的数据信息，进行筛选和甄别，来支持、验证和改善自己的逻辑，需要大量的时间和精力。驱动市场价格的逻辑在不断变化，为了节约信息处理方面的时间，需要建立基本面量化框架。 【使用说明】 本框架采用 python + jupyter notebook + Wind的python数据接口 编制并导出网页而来。 目的：实时跟踪品种基本面和相关市场的数据，根据基本面或技术面等数据建立价格预期模型 数据来源：Wind、文华财经、tushare、收集整理的Excel文件等，不限 特点：将数据展示为动态图表，互动性强、后期扩展性强 【品种分类】 品种 链接 备注 动力煤 网页链接 待更新]]></content>
+      
+      
+        <tags>
+            
+            <tag> 睡眠 </tag>
+            
+            <tag> R90 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>期货基本面量化分析框架演示</title>
+      <link href="/2018/03/16/%E6%9C%9F%E8%B4%A7%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6/"/>
+      <url>/2018/03/16/%E6%9C%9F%E8%B4%A7%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6/</url>
+      <content type="html"><![CDATA[<p>怎样才能做好期货基本面分析？对现货行业市场、宏观环境、产业链头部企业三者均要做足功课，形成自己的市场驱动逻辑，同时要面对海量的数据信息，进行筛选和甄别，来支持、验证和改善自己的逻辑，需要大量的时间和精力。驱动市场价格的逻辑在不断变化，为了节约信息处理方面的时间，需要建立基本面量化框架。</p><h3 id="【使用说明】"><a href="#【使用说明】" class="headerlink" title="【使用说明】"></a>【使用说明】</h3><ul><li>本框架采用 python + jupyter notebook + Wind的python数据接口 编制并导出网页而来。</li><li>目的：实时跟踪品种基本面和相关市场的数据，根据基本面或技术面等数据建立价格预期模型</li><li>数据来源：Wind、文华财经、tushare、收集整理的Excel文件等，不限</li><li>特点：将数据展示为动态图表，互动性强、后期扩展性强</li></ul><h3 id="【品种分类】"><a href="#【品种分类】" class="headerlink" title="【品种分类】"></a>【品种分类】</h3><table><thead><tr><th style="text-align:center">品种</th><th style="text-align:center">链接</th><th style="text-align:center">备注</th></tr></thead><tbody><tr><td style="text-align:center">动力煤</td><td style="text-align:center"><a href="/datafx/zc.html" target="_black">网页链接</a></td><td style="text-align:center">待更新</td></tr></tbody></table>]]></content>
+      
       <categories>
-        <category>金融投资</category>
+          
+          <category> 金融投资 </category>
+          
       </categories>
-      <tags>
-        <tag>数据分析</tag>
-        <tag>期货</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 数据分析 </tag>
+            
+            <tag> 期货 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
 </search>
