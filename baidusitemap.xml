@@ -4,28 +4,6 @@
 
     
   <url>
-    <loc>http://www.dp516.com/2020/01/25/%E6%88%91%E4%BB%AC%E6%81%90%E6%83%A7%E7%9A%84%E6%98%AF%E6%81%90%E6%85%8C%E6%9C%AC%E8%BA%AB/</loc>
-    <lastmod>2020-01-25T13:46:18.752Z</lastmod>
-    <data>
-        <display>
-        <title>我们恐惧的是恐慌本身--2019新型冠状病毒抗击侧记</title>
-        <pubTime>2020-01-25T08:30:00.000Z</pubTime>
-        
-        <tag>2019新型冠状病毒</tag>
-         
-        <tag>武汉</tag>
-         
-         
-           
-             
-              <breadCrumb title="健康运动" url="http://www.dp516.com/categories/%E5%81%A5%E5%BA%B7%E8%BF%90%E5%8A%A8/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.dp516.com/2020/01/06/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8vscode%E6%84%89%E5%BF%AB%E7%9A%84%E5%86%99%E6%8A%A5%E5%91%8A%E5%92%8C%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2020-01-08T17:14:00.117Z</lastmod>
     <data>
@@ -179,11 +157,11 @@
         <title>他山之石，可以攻玉：应用EPU指数跟踪中国资本市场</title>
         <pubTime>2019-01-10T07:00:00.000Z</pubTime>
         
-        <tag>股票</tag>
-         
         <tag>汇率</tag>
          
         <tag>利率</tag>
+         
+        <tag>股票</tag>
          
         <tag>商品</tag>
          
@@ -279,9 +257,9 @@
         <title>展望2019，量化对冲仍是A股首选策略</title>
         <pubTime>2018-12-25T09:00:00.000Z</pubTime>
         
-        <tag>股票</tag>
-         
         <tag>数据分析</tag>
+         
+        <tag>股票</tag>
          
          
            
@@ -301,9 +279,9 @@
         <title>当前宏观环境下的A股板块轮动走向</title>
         <pubTime>2018-09-07T15:10:00.000Z</pubTime>
         
-        <tag>股票</tag>
-         
         <tag>数据分析</tag>
+         
+        <tag>股票</tag>
          
          
            
@@ -415,11 +393,11 @@
         <title>股票数据分析举例</title>
         <pubTime>2018-09-29T08:40:00.000Z</pubTime>
         
+        <tag>数据分析</tag>
+         
         <tag>股票</tag>
          
         <tag>python</tag>
-         
-        <tag>数据分析</tag>
          
          
            
