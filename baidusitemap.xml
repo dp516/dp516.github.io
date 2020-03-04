@@ -178,11 +178,11 @@
         <title>他山之石，可以攻玉：应用EPU指数跟踪中国资本市场</title>
         <pubTime>2019-01-10T07:00:00.000Z</pubTime>
         
-        <tag>股票</tag>
-         
         <tag>汇率</tag>
          
         <tag>利率</tag>
+         
+        <tag>股票</tag>
          
         <tag>商品</tag>
          
@@ -278,9 +278,9 @@
         <title>展望2019，量化对冲仍是A股首选策略</title>
         <pubTime>2018-12-25T09:00:00.000Z</pubTime>
         
-        <tag>股票</tag>
-         
         <tag>数据分析</tag>
+         
+        <tag>股票</tag>
          
          
            
@@ -300,9 +300,9 @@
         <title>当前宏观环境下的A股板块轮动走向</title>
         <pubTime>2018-09-07T15:10:00.000Z</pubTime>
         
-        <tag>股票</tag>
-         
         <tag>数据分析</tag>
+         
+        <tag>股票</tag>
          
          
            
@@ -414,11 +414,11 @@
         <title>股票数据分析举例</title>
         <pubTime>2018-09-29T08:40:00.000Z</pubTime>
         
+        <tag>数据分析</tag>
+         
         <tag>股票</tag>
          
         <tag>python</tag>
-         
-        <tag>数据分析</tag>
          
          
            
